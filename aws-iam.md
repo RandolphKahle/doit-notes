@@ -17,9 +17,7 @@ Collections of users
 
 ### Policies
 
-Made of [[aws-iam-policy-document]]s "Policy Documents".
-Formatted in JSON.
-Give permissions for User/Group/Role to take actions within AWS.
+Uses [[aws-iam-policy-document]]s to give permissions for [[aws-iam-user]] / [[aws-iam-group]] / [[aws-iam-role]] to take actions within AWS.
 
 ### Roles
 
