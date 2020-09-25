@@ -1,7 +1,7 @@
 ---
 date: 2020-09-25T07:12
 tags:
-    - amazon/aws/security
+    - amazon/aws/iam
 ---
 
 # aws-iam
