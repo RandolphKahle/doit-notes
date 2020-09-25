@@ -36,4 +36,4 @@ Uses [[aws-iam-policy-document]]s to give permissions for [[aws-iam-user]] / [[a
 * Integrates with AWS services
 * PCI DSS Compliance
 
-[[[z:zettels?tag=amazon/aws/iam/*]]]
+[[[z:zettels?tag=amazon/aws/iam]]]
