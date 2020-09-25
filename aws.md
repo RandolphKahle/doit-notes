@@ -8,4 +8,4 @@ tags:
 
 Amazon Web Services
 
-[[[z:zettels?tag=amazon/aws]]]
+[[[z:zettels?tag=amazon/aws/*]]]
