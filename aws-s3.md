@@ -1,8 +1,9 @@
 ---
-date: 2020-09-25T06:57
+date: 2020-09-25T06:52
+tags:
+    - amazon/aws/storage/s3
 ---
 
 # aws-s3
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
-
+S3 Storage bucket system.
