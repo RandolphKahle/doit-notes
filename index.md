@@ -7,4 +7,6 @@ tags: [home]
 This ZettelKasten contains technical notes to capture our company generated intellectual property as well as vendor specific information.
 
 
-[[[z:zettels?tag=other]]]
+
+
+[[[z:zettels?tag=amazon/aws]]]
