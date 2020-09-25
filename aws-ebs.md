@@ -1,7 +1,7 @@
 ---
 date: 2020-09-25T06:51
 tags:
-    - amazon/aws/storage/ebs
+    - amazon/aws/storage/
 ---
 
 # aws-ebs
