@@ -4,7 +4,7 @@ tags:
     - amazon/aws/storage/efs
 ---
 
-# was-efs
+# aws-efs
 
 Elastic File System
 
