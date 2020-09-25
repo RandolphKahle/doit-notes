@@ -6,6 +6,6 @@ tags:
     - amazon/aws/storage
 ---
 
-# amazon-storage
+# aws-storage
 
 [[[z:zettels?tag=amazon/aws/storage/**]]]
