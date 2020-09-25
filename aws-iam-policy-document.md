@@ -7,3 +7,10 @@ tags:
 
 # aws-iam-policy-document
 
+
+Technical
+
+JSON formatted gives permissions user/group/role allowed to do.
+
+
+
