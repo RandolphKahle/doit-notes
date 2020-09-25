@@ -1,8 +1,15 @@
 ---
 date: 2020-09-25T06:52
+tags:
+    - amazon/aws/storage/efs
 ---
 
 # was-efs
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+Elastic File System
 
+Network attached file storage system used within the EC2 computing context.
+
+Technical:  
+* 500,000 IOPS
+* 10 GB per second
