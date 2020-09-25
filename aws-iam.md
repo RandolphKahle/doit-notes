@@ -34,4 +34,4 @@ Features:
 * Integrates with AWS services
 * PCI DSS Compliance
 
-[[[z:zettels?tag=amazon/aws/security/**]]]
+[[[z:zettels?tag=amazon/aws/security/*]]]
