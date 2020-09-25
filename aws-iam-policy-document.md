@@ -11,5 +11,18 @@ Technical
 
 JSON formatted gives permissions to [[aws-iam-user]] / [[aws-iam-group]] / [[aws-iam-role]] describing what they are allowed to do.
 
+JSON formatted document. The following grants all rights
+to all resource, also know as the administrator!
 
-
+```
+{
+  "Version": "2020-09-25",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "*",
+      "Resource": "*"
+    }
+  ]
+}
+```
