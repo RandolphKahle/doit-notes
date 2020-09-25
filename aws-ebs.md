@@ -1,8 +1,9 @@
 ---
 date: 2020-09-25T06:51
+tags:
+    - amazon/aws/storage/ebs
 ---
 
 # aws-ebs
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
-
+Block storage attached to a single EC2 instance (VM) and formatted to function as a file system.
