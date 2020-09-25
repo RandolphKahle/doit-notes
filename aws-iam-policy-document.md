@@ -10,7 +10,7 @@ tags:
 
 Technical
 
-JSON formatted gives permissions to [[aws-iam-user]]/group/role describing what they are allowed to do.
+JSON formatted gives permissions to [[aws-iam-user]] / [[aws-iam-group]] / [[aws-iam-role]] describing what they are allowed to do.
 
 
 
