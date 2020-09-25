@@ -1,7 +1,7 @@
 ---
 date: 2020-09-25T08:13
 tags:
-    - amazon/aws/iam/policy-document
+    - amazon/aws/iam/
 ---
 
 # aws-iam-policy-document
