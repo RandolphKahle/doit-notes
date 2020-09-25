@@ -1,7 +1,6 @@
 ---
 date: 2020-09-25T07:12
 tags:
-    - amazon/aws
     - amazon/aws/security
 ---
 
