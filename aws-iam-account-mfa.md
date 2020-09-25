@@ -7,3 +7,7 @@ tags:
 # aws-iam-account-mfa
 
 Multi Factor Authentication.
+
+* Virtual MFA device
+* U2F security key <https://www.yubico.com>
+* Other hardware MFA device
