@@ -8,5 +8,4 @@ tags:
 
 Association of person to AWS.
 
-
-
+[[[z:zettels?tag=amazon/aws/iam/account/]]]
