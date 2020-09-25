@@ -9,3 +9,7 @@ tags:
 # aws-s3
 
 S3 Storage bucket system.
+
+## Technical
+
+* 99.999999999 durability
