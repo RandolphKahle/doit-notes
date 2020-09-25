@@ -10,3 +10,4 @@ This ZettelKasten contains technical notes to capture our company generated inte
 
 
 [[[z:zettels?tag=amazon/aws]]]
+[[[z:zettels?tag=google/gcp]]]
