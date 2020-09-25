@@ -9,7 +9,9 @@ tags:
 ## Key Concepts
 
 ### Users
-End users - general people, members of an organization
+End users - general people, members of an organization.
+
+?? Root Account: The identity of the user who created the AWS account. It has "god mode". Want to have [[aws-iam-account-mfa]] multi-factor authentication.
 
 ### Groups
 
@@ -23,7 +25,7 @@ Uses [[aws-iam-policy-document]]s to give permissions for [[aws-iam-user]] / [[a
 
 ?? Not clear yet how to describe this ??
 
-Features:
+### Features
 * Centralized control of AWS account
 * Shared access to AWS account
 * Granular Permissions
