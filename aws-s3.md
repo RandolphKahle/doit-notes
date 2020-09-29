@@ -56,13 +56,6 @@ Pricing
 
 Object tags are a tool you can use to enable simple management of your S3 storage. With the ability to create, update, and delete tags at any time during the lifetime of your object, your storage can adapt to the needs of your business. These tags allow you to control access to objects tagged with specific key-value pairs, allowing you to further secure confidential data for only a select group or user. Object tags can also be used to label objects that belong to a specific project or business unit, which could be used in conjunction with S3 Lifecycle policies to manage transitions to other storage classes (S3 Standard-IA, S3 One Zone-IA, and S3 Glacier) or with S3 Replication to selectively replicate data between AWS Regions.
 
-### Other Features
-
-
-#### Lifecycle Management
-Automate moving objects to different storage tiers  
-In conjunction with versioning  
-Applied to current and previous versions
 
 
 ## Exam Tips
