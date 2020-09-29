@@ -1,8 +1,11 @@
 ---
 date: 2020-09-29T14:45
+tags:
+  - amazon/aws/storage/s3
 ---
 
 # aws-s3-select
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+Retrieve parts of objects using SQL-like (?) language.
 
+Works with S3 and Glacier.
