@@ -1,7 +1,7 @@
 ---
 date: 2020-09-29T18:18
 tags:
-  - amazon/aws/storage/
+  - amazon/aws/storage/gateway/
 ---
 
 # aws-tape-gateway
