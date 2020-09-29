@@ -8,4 +8,6 @@ tags:
 
 Several ways to provide an on-premise to cloud link for storage migration, backup, and caching.
 
+Uses a VM appliance locally to then make the connection up to Amazon.
+
 [[[z:zettels?tag=amazon/aws/storage/gateway/*]]]
