@@ -81,3 +81,4 @@ Pricing
 
 asdf
 
+[[[z:zettels?tag=amazon/aws/storage/s3/*]]]
