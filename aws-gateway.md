@@ -7,3 +7,5 @@ tags:
 # aws-gateway
 
 Several ways to provide an on-premise to cloud link for storage migration, backup, and caching.
+
+[[[z:zettels?tag=amazon/aws/storage/gateway/*]]]
