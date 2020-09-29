@@ -32,3 +32,6 @@ Good for access to multiple files.
 ## S3
 
 Signed URL.
+
+Acts as an IAM user with their permissions. Has a limited life-time.
+
