@@ -8,4 +8,3 @@ tags:
 
 Replace all on-premise tape backup storage.
 
-[[[z:zettels?tag=amazon/aws/storage/gateway/*]]]
