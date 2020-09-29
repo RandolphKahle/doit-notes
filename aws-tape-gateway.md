@@ -1,8 +1,9 @@
 ---
 date: 2020-09-29T18:18
+tags:
+  - amazon/aws/storage/
 ---
 
 # aws-tape-gateway
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
-
+Replace all on-premise tape backup storage.
