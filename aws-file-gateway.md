@@ -8,4 +8,3 @@ tags:
 
 Provides NFS and SMB mount points for on-premise use while backing up or migrating files to Amazon S3.
 
-[[[z:zettels?tag=amazon/aws/storage/gateway/*]]]
