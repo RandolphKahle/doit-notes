@@ -6,6 +6,9 @@ tags:
 
 # aws-s3-standard-infrequent-access-single-zone
 
+Durability: 99.999999999%  
+Availability: 99%
+
 According to Amazon:
 
 S3 One Zone-IA storage class is an Amazon S3 storage class that customers can choose to store objects in a single availability zone. S3 One Zone-IA storage redundantly stores data within that single Availability Zone to deliver storage at 20% less cost than geographically redundant S3 Standard-IA storage, which stores data redundantly across multiple geographically separate Availability Zones.
