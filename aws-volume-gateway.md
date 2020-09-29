@@ -1,7 +1,7 @@
 ---
 date: 2020-09-29T18:12
 tags:
-  - amazon/aws/storage/volume-gateway/
+  - amazon/aws/storage/gateway/
 ---
 
 # aws-volume-gateway
