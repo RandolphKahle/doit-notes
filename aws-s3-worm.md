@@ -6,6 +6,7 @@ tags:
 
 # aws-s3-worm
 
+**Update this section from the aCloud.guru class before exam**
 
 S3 Governance Mode  
 User needs special permission to alter the object
