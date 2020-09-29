@@ -19,6 +19,8 @@ Create a distribution.
 
 Signed URL or signed cookie.
 
+Uses [[security-origin-access-identity]] Origin Access Identity (OAI) to associate (connect to/with (?) an S3 bucket).
+
 ### Signed URL
 
 Gives authorization for a single resource.
