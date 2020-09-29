@@ -5,3 +5,11 @@ tags:
 ---
 
 # aws-s3-lifecycle-management
+
+
+
+
+Automate moving objects to different storage tiers  
+In conjunction with versioning  
+Applied to current and previous versions
+
