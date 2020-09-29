@@ -49,5 +49,35 @@ Pricing
 * Requests (operations)
 * Tier policy
 * Data transfer
-* Transfer acceleration
+* Transfer acceleration. For in-coming files, once they hit an Amazon edge location the file is transferred using Amazon's backbone network. (Huh? Isn't this what Google does automatically?)
 * Cross Region Replication
+
+## Exam Tips
+* S3 is **Object Based**. Not block storage.
+* Size is 0 to 5TB
+* Unlimited storage
+* Files stored in buckets (with unique global names. default to Virginia, otherwise, region in DNS name)
+* Return code for a successful upload is an HTTP 200 status code
+* MFA for deletes is available
+* Each object
+  * Key
+  * Value
+  * Version ID
+  * Metadata
+  * Sub-resources
+    * Access Control List (ACL) (bucket or object)
+    * Torrent
+  * Consistency
+    * Read-After-Write for initial PUT
+    * Eventual-Consistency for update PUT or DELETE
+  * Storage Classes
+    * S3 Standard
+    * S3 Infrequent Access
+    * S3 Infrequent Access One Zone
+    * S3 Intelligent Tiering
+  * Glacier
+  * Glacier Deep Archive (12 hour retrieval time)
+  * S3 FAQ!!!
+
+asdf
+
