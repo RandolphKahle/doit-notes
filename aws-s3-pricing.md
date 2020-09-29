@@ -17,12 +17,6 @@ Charges for:
 First 50 TB. 2.3¢  
 Next 450 TB. 2.2¢  
 Over 500 TB. 2.1¢  
-### S3 IA
-1.25¢
-
-
-### S3 IA One Zone
-1.00¢
 
 ### S3 Intelligent Tiering
 First 50 TB. 2.3¢  
@@ -30,7 +24,16 @@ Next 450 TB. 2.2¢
 Over 500 TB. 2.1¢  
 IA Tier  1.25¢
 Management 0.25¢ per 1,000 objects
+
+### S3 IA
+1.25¢
+
+
+### S3 IA One Zone
+1.00¢
+
 ### S3 Glacier
 0.4¢
+
 ### S3 Glacier Deep Archive
 0.099¢
