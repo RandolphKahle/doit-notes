@@ -1,8 +1,9 @@
 ---
 date: 2020-09-29T18:21
+tags:
+  - amazon/aws/storage/
 ---
 
 # aws-gateway
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
-
+Several ways to provide an on-premise to cloud link for storage migration, backup, and caching.
