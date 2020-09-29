@@ -64,6 +64,12 @@ S3 Object Lock can be configured in one of two Modes. When deployed in Governanc
 
 Alternatively, you can make an object immutable by applying a Legal Hold to that object. A Legal Hold places indefinite S3 Object Lock protection on an object, which will remain until it is explicitly removed. In order to place and remove Legal Holds, your AWS account must have write permission for the PutObjectLegalHold action. Legal Hold can be applied to any object in an S3 Object Lock enabled bucket, whether or not that object is currently WORM-protected by a retention period.
 
+#### Lifecycle Management
+Automate moving objects to different storage tiers  
+In conjunction with versioning  
+Applied to current and previous versions
+
+
 ## Exam Tips
 * S3 is **Object Based**. Not block storage.
 * Size is 0 to 5TB
