@@ -30,3 +30,5 @@ SSL/TLS (which versions?)
 * Client side
 
 Use whatever encryption you want on your external computer and then upload. (How would cloud located system decrypt? Key management??)
+
+[[[z:zettels?tag=amazon/aws/storage/s3/security/*]]]
