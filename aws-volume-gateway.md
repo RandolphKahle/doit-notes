@@ -6,19 +6,15 @@ tags:
 
 # aws-volume-gateway
 
-Run an on-premise VM that connects to Amazon. This can provide an NFS or SMB file share point, an iSCSI block storage endpoing, or ??
+Provides an iSCSI endpoint for local attachment use.
 
-## NFS / SMB
 
-Files are backed up on Amazon S3.
+## Stored Volumes
 
-## iSCSI
-
-Stored volume - locally all data is available with low-latency. Provides durable 1TB to 16TB. Async backed up in the form of EBS snapshots.
+All data is available locally with low-latency. Provides durable 1TB to 16TB. Async backed up in the form of EBS snapshots.
 
 ## Cache Volumes
 
-Keeps the most frequently used data locally. From 1GB to 32TiB and attach as iSCSI devices. Data is stored in S3. 
+Keeps the most frequently used (blocks of) data locally. From 1GB to 32TiB and attach as iSCSI devices. Data is stored in S3. 
 
 The backing is sent to Amazon and is stored in an S3 bucket as an object store.
-
