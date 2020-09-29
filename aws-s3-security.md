@@ -2,6 +2,7 @@
 date: 2020-09-29T13:42
 tags:
   - amazon/aws/storage/s3/
+  - amazon/aws/storage/s3/security
 ---
 
 # aws-s3-security
