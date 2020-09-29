@@ -28,3 +28,5 @@ SSL/TLS (which versions?)
   * S3 Server side encryption with customer supplied keys **SSE-C**
 
 * Client side
+
+Use whatever encryption you want on your external computer and then upload. (How would cloud located system decrypt? Key management??)
