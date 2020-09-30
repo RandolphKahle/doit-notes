@@ -6,9 +6,11 @@ tags:
 
 # aws-ebs
  
-Elastic Block Storage
+# Elastic Block Storage
 
 Block storage attached to a single EC2 instance (VM) and formatted to function as a file system.
+The EBS volume must be in the same availability zone as the associated EC2 instance.
+
 
 ## Types
 
@@ -20,4 +22,13 @@ Block storage attached to a single EC2 instance (VM) and formatted to function a
 | **sc1** | Low cost for file server | 500G to 16T | 250 |
 | **Standard**| Previous generation. Seldom used data | 1G to 1T | 40 to 200 |
 
+## Tasks
+
+### Move an EC2 instance
+To move an EC2 instance to another availability zone:
+* Create a snapshot of the boot disk
+* Create a private image (AMI) from the snapshot
+* Create a new EC2 instance
+
+If you need to move to a different region, you must first move the AMI to the destination region. Once moved, create a new EC2 instance.
 
