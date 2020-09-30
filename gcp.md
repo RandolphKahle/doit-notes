@@ -10,4 +10,4 @@ Google Cloud Platform
 
 
 
-[[[z:zettels?tag=google/gcp/**]]]
+[[[z:zettels?tag=google/gcp/*]]]
