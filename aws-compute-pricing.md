@@ -1,7 +1,7 @@
 ---
 date: 2020-09-30T10:09
 tags:
-  - amazon/aws/compute/
+  - amazon/aws/compute/ec2/
 ---
 
 # aws-compute-pricing
