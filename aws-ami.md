@@ -10,3 +10,4 @@ There are two types of AMI.
 
 AMIs are local to a region.
 
+AMI are used to create [[aws-ebs]].
