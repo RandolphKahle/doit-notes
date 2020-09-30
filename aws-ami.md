@@ -1,8 +1,12 @@
 ---
 date: 2020-09-30T17:59
+tags:
+  - amazon/aws/storage/
 ---
 
 # aws-ami
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+There are two types of AMI. 
+
+AMIs are local to a region.
 
