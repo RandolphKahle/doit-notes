@@ -8,18 +8,22 @@ tags:
 
 ## Key Concepts
 
-### Users
-End users - general people, members of an organization.
-
-?? Root Account: The identity of the user who created the AWS account. It has "god mode". Want to have [[aws-iam-account-mfa]] multi-factor authentication.
-
-### Groups
-
-Collections of users
+IAM consists of *users*, *groups*, *roles*, and *policies*. 
 
 ### Policies
 
-Uses [[aws-iam-policy-document]]s to give permissions for [[aws-iam-user]] / [[aws-iam-group]] / [[aws-iam-role]] to take actions within AWS.
+IAM uses [[aws-iam-policy-document]]s to give permissions for [[aws-iam-user]] / [[aws-iam-group]] / [[aws-iam-role]] to take actions within AWS.
+
+
+### Users
+End users - general people, members of an organization.
+
+?? Root Account: The identity of the user who created the AWS account. It has "god mode". Highly recommended to use a [[high-quality-password]] and to use [[aws-iam-account-mfa]] multi-factor authentication.
+
+### Groups
+
+Collections of users.
+
 
 ### Roles
 
