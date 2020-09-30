@@ -1,7 +1,7 @@
 ---
 date: 2020-09-30T08:42
 tags:
-  - amazona/aws/
+  - amazon/aws/
 ---
 
 # aws-compute
