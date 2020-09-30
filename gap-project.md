@@ -1,7 +1,7 @@
 ---
 date: 2020-09-30T07:28
 tags:
-  - gcp
+  - google/gcp
 ---
 
 # gap-project
