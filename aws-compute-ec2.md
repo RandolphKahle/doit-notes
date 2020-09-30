@@ -1,8 +1,11 @@
 ---
 date: 2020-09-30T08:43
+tags:
+  - amazon/aws/compute/
 ---
 
 # aws-compute-ec2
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+[[[z:zettels?tag=amazon/aws/compute/ec2/*]]]
+
 
