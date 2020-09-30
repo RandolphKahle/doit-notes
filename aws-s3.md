@@ -26,18 +26,18 @@ S3 Storage bucket system.
 For example, if you upload version 1 of a file and then overwrite with version 2, it will take some time before you get version 2 on a fetch.
 
 * 99.9% available (SLA)
-* 99.99% availability (Build to specification)
+* 99.99% availability (Build-To specification)
 * 99.999999999% durability
 
 
 ### Storage Tiers
 
-* S3 Standard. Multiple devices in multiple facilities. Designed to survive the loss of two facilities concurrently.
-* S3-IA. S3 Infrequent Access. Less expensive, fast access, access charge.
-* S3 One Zone - IA. (Yikes!)
-* S3 Intelligent Tiering. 
-* S3 Glacier. Retrieval time configurable from minutes to hours.
-* S3 Glacier Deep Archive. Lowest cost. 12-hour retrieval (probably tape in a vault!)
+* **S3 Standard**. Multiple devices in multiple facilities. Designed to survive the loss of two facilities concurrently.
+* **S3-IA**. S3 Infrequent Access. Less expensive, fast access, access charge.
+* **S3 One Zone - IA**. (Yikes!)
+* **S3 Intelligent Tiering**. 
+* **S3 Glacier**. Retrieval time configurable from minutes to hours.
+* **S3 Glacier Deep Archive**. Lowest cost. 12-hour retrieval (probably tape in a vault!)
 
 ### Other
 * Lifecycle Management
