@@ -6,7 +6,8 @@ tags:
 
 # gcp
 
-Google Cloud PlatformAmazon Web Services
+Google Cloud Platform
 
-[[[z:zettels?tag=google/gcp/*]]]
 
+
+[[[z:zettels?tag=google/gcp/**]]]
