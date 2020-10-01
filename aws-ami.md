@@ -12,3 +12,8 @@ There are two types of AMI.
 
 Region, operating system, architecture (32-bit, 64-bit, ARM), Launch permissions, root device storage (Instance store (EPHEMERAL) or [[aws-ebs]](EBS)) 
 
+### EBS Volume
+Root device is an EBS volume created from an EBS [[aws-ebs-snapshot]].
+
+### Instance Store Volume
+Root device is an instance store volume created from a template stored in an [[aws-s3-bucket]].
