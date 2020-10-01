@@ -16,4 +16,5 @@ Region, operating system, architecture (32-bit, 64-bit, ARM), Launch permissions
 Root device is an EBS volume created from an EBS [[aws-ebs-snapshot]].
 
 ### Instance Store Volume
-Root device is an instance store volume created from a template stored in an [[aws-s3-bucket]].
+
+Root device is an [[aws-compute-ec2-instance-store]] volume created from a template stored in an [[aws-s3-bucket]].
