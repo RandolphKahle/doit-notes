@@ -5,3 +5,7 @@ tags:
 ---
 
 # aws-compute-instance-type
+
+I had a full table in this and lost it! Rats.
+
+
