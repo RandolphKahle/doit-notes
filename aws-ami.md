@@ -1,7 +1,7 @@
 ---
 date: 2020-09-30T17:59
 tags:
-  - amazon/aws/ec2/
+  - amazon/aws/compute/ec2/
 ---
 
 # aws-ami
