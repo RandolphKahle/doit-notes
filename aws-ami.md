@@ -8,6 +8,7 @@ tags:
 
 There are two types of AMI. 
 
-AMIs are local to a region.
+## Dimensions
 
-AMI are used to create [[aws-ebs]].
+Region, operating system, architecture (32-bit, 64-bit, ARM), Launch permissions, root device storage (Instance store (EPHEMERAL) or [[aws-ebs]](EBS)) 
+
