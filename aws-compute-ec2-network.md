@@ -1,8 +1,7 @@
 ---
 date: 2020-10-01T10:07
+tags:
+  - amazon/aws/compute/
 ---
 
 # aws-compute-ec2-network
-
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
-
