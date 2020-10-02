@@ -6,10 +6,13 @@ tags:
 
 # aws-efs
 
-Elastic File System
+# Elastic File System
 
 Network attached file storage system used within the EC2 computing context.
 
 Technical:  
 * 500,000 IOPS
 * 10 GB per second
+
+
+
