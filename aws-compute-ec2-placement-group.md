@@ -12,7 +12,7 @@ A placement group provides control over the *physical* placement of virtual mach
 
 The value is predicated on localized placement relative to network instance and shared infrastructure (e.g. a *rack*).
 
-## Placement Group
+## Cluster Placement Group
 
 Supports the co-location of a set of virtual machines in the same rack, on the same physical network. This provides the highest network throughput and lowest latency.
 
