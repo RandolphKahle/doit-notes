@@ -16,11 +16,17 @@ The value is predicated on localized placement relative to network instance and 
 
 Use case: Low network latency and high network throughput.
 
+Single Availability Zone
+
+Recommend homogenous types.
+
 Supports the co-location of a set of virtual machines in the same rack, on the same physical network. This provides the highest network throughput and lowest latency.
 
 ## Spread Placement Group
 
 Use case: Resiliancy against hardware failure.
+
+Multiple Availability Zones in a single region.
 
 Supports the non-co-location of a set of virtual machines on different racks. This provides the highest degree of conincident failure of virtual machines within the same availability zone.
 
