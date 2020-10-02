@@ -14,13 +14,19 @@ The value is predicated on localized placement relative to network instance and 
 
 ## Cluster Placement Group
 
+Use case: Low network latency and high network throughput.
+
 Supports the co-location of a set of virtual machines in the same rack, on the same physical network. This provides the highest network throughput and lowest latency.
 
 ## Spread Placement Group
 
+Use case: Resiliancy against hardware failure.
+
 Supports the non-co-location of a set of virtual machines on different racks. This provides the highest degree of conincident failure of virtual machines within the same availability zone.
 
 ## Partition Placement Group
+
+Use case: HDFS, Cassandra, HBase.
 
 Supports the co-location of virtual machines in a partition and the spreading of multiple partitions across racks.
 
