@@ -27,7 +27,9 @@ Collections of users.
 
 ### Roles
 
-?? Not clear yet how to describe this ??
+A role as "attached" *policies*.
+
+One can "attach' a role to e.g. an [[aws-compute-ec2]] instance. This means the ec2 instance does not need a local copy of the secure keys. If such an instance is hacked, then the attackers could do anything allowed by the associated role(s) *but* they would not have access to the actual keys.
 
 ### Features
 * Centralized control of AWS account
@@ -39,5 +41,8 @@ Collections of users.
 * Password rotation policy
 * Integrates with AWS services
 * PCI DSS Compliance
+
+# Exam Tipes
+Associating a role with an EC2 instance is more secure than storing the access key information on the instance. You coul still be hacked and have a bad actor use your account, but they would not have the keys.
 
 [[[z:zettels?tag=amazon/aws/iam/]]]
