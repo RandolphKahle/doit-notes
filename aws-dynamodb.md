@@ -22,3 +22,10 @@ One-second rule. Write, wait one second..., read value.
 If consistency faster than that then select strong-consistent-reads.
 
 Three geographically distinct data centers.
+
+## Advanced Features
+
+**DAX** milliseconds to microsecond response. 
+
+**Transactions**
+
