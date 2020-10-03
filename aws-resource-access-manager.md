@@ -6,11 +6,7 @@ tags:
 
 # aws-resource-access-manager
 
-Individual Accounts
-
-AWS "organization"
-
-Separate Resources...
+You can have an Aurora database in one account and use the Resource Access Manager (RAM) to "offer to share" from one account and in the other account "accept the invitation to share". Then account #2 can see the Aurora database in account #1.
 
 ## Sharable
 
