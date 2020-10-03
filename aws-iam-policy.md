@@ -6,3 +6,8 @@ tags:
 
 # aws-iam-policy
 
+A policy ??is a document?? that defines permissions.
+
+* Identity policy -  [[aws-iam-user]], [[aws-iam-group]], [[aws-iam-role]] and define allowed actions.
+* Resource policy - attached to a resource such as an [[aws-s3-bucket]] specifies who has access to the resource and what actions they can perform on that resource.
+
