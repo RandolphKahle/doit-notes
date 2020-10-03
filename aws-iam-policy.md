@@ -25,3 +25,28 @@ A policy is simply a list of statements in a JSON format
 
 Each statement represents an AWS API request, such as starting an [[aws-compute-ec2-instance]].
 
+```
+{
+	"Version": "2012-10-17",
+	"Statement" : [
+		{
+ 		"Sid" : "SpecificTable",
+ 		"Effect": "Allow",
+ 		"Action": [
+ 			"dynamodb:BatchGet*",
+ 			"dynamodb:DescribeStream",
+ 			"dynamodb:DescribeTable",
+ 			"dynamodb:Get*",
+ 			"dynamodb:Query",
+ 			"dynamodb:Scan",
+ 			"dynamodb:BatchWrite*",
+ 			"dynamodb:CreateTable",
+ 			"dynamodb:Delete*",
+ 			"dynamodb:Update*",
+ 			"dynamodb:PutItem",
+ 		],
+ 		"Resource": "arn:aws:"dynamodb":*:*:table/MyTable"
+		}
+	]
+}
+```
