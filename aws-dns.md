@@ -49,5 +49,7 @@ Map a domain name to an alternate domain name, which itself, contains A records.
   * MX
   
 
+* You can buy a domain name from AWS
+* Up to three days for registration
 
 
