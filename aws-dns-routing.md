@@ -30,7 +30,14 @@ Determines which region exhibits the lowest latency for a user.
 ## Failover Routing Policy
 
 Used for an active / passive setup. For example,
-us-east-1 might be the active region and asia might be the backup.
+us-east-1 might be the active region and ap-southeast-2 might be the backup.
+
+## Geolocation Routing Policy
+
+Select destination for traffic based on location of the user.
+A European customer will be routed to the european region.
+Based on continent or country. This is actually pretty cool.
+
 
 
 
