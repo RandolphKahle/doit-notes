@@ -27,3 +27,10 @@ You can distribute your traffic with a weighting bias. For example, 10% to one I
 
 Determines which region exhibits the lowest latency for a user.
 
+## Failover Routing Policy
+
+Used for an active / passive setup. For example,
+us-east-1 might be the active region and asia might be the backup.
+
+
+
