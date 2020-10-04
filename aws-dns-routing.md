@@ -17,5 +17,13 @@ Types of Route53 routing:
 
 ## Simple Routing Policy
 
-One entry with multiple IP addresses. Route53 randomly selects the IP address to return for each query.
+One entry with multiple IP addresses. Route53 returns an IP address selected at random from the set for each query.
+
+## Weighted Routing Policy
+
+You can distribute your traffic with a weighting bias. For example, 10% to one IP address and 90% to another IP address.
+
+## Latency Based Routing Policy
+
+Determines which region exhibits the lowest latency for a user.
 
