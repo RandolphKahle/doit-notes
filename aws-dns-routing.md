@@ -39,5 +39,9 @@ A European customer will be routed to the european region.
 Based on continent or country. This is actually pretty cool.
 
 
+## Geoproximity Routing
+
+Route53 routes based on location of user and resources.
+Can apply a bias which will compress or expand a geographic region.
 
 
