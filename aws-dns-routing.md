@@ -44,4 +44,10 @@ Based on continent or country. This is actually pretty cool.
 Route53 routes based on location of user and resources.
 Can apply a bias which will compress or expand a geographic region.
 
+Uses *Route 53 Traffic Flow*.
+
+## Multi-Value Answer Routing
+
+Similar to Simple Routing except you can associate a health check with each record set.
+
 
