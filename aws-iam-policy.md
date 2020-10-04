@@ -50,3 +50,19 @@ Each statement represents an AWS API request, such as starting an [[aws-compute-
 	]
 }
 ```
+
+# Exam Tips
+
+* Permission are denied unless allowed.
+* Explicit deny overrides anything in any other policy.
+* Policy does not do anything unless attached to a user, group, or role.
+* If there are multiple policies, AWS will UNION all policies.
+* AWS managed policies and Customer managed policies
+
+## Permission Boundaries
+
+Used to set an upper limit on permissions granted by a delegatee?
+
+For example, a user is granted full rights to all of AWS... A super user... Then set a permission boundary to limit to administration of DynamoDB. Then the only things this user can do are the
+administrative functions related to DynamoDB.
+
