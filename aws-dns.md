@@ -53,3 +53,5 @@ Map a domain name to an alternate domain name, which itself, contains A records.
 * Up to three days for registration
 
 
+[[[z:zettels?tag=amazon/aws/dns/*]]]
+
