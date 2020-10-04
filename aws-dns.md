@@ -35,5 +35,19 @@ Alias Record (ALIAS)
 
 Map a domain name to an alternate domain name, which itself, contains A records. An example might be to map to an S3 bucket configured to work as a website.
 
+# Exam Tips
+
+* ELBs never have a pre-defined IPv4 address. They are resolved with a DNS name.
+* Understand the difference between a CNAME and ALIAS record.
+* Common DNS types
+  * SOA
+  * NS
+  * A
+  * CNAME
+  * ALIAS
+  * PTR (reverse of an A record)
+  * MX
+  
+
 
 
