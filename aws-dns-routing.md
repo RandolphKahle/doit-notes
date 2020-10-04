@@ -15,3 +15,7 @@ Types of Route53 routing:
 * Geoproximity 
 * Multi-value answer
 
+## Simple Routing Policy
+
+One entry with multiple IP addresses. Route53 randomly selects the IP address to return for each query.
+
