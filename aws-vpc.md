@@ -10,12 +10,6 @@ Amazon Virtual Private Cloud.
 Build and launch resources in an isolated section of the AWS system.
 You have complete control over the VPC details.
 
-Subnet size range allowed in AWS VPC. 
-```
-*/16 (65,536) 
-*/28 (256)
-```
-
 ## Default VPC
 * Easy to use - ready to deploy EC2
 * Route out to Internet
