@@ -18,7 +18,7 @@ IAM uses [[aws-iam-policy-document]]s to give permissions for [[aws-iam-user]] /
 ### Users
 End users - general people, members of an organization.
 
-The *Root Account* is the account created when a person first establishes a ??billing account?? with AWS. It has "god mode". Highly recommended to use a [[high-quality-password]] and to use [[aws-iam-account-mfa]] multi-factor authentication.
+The *Root Account* is the account created when a person first establishes a ??billing account?? with AWS. It has "god mode". Highly recommended to use a [[[high-quality-password]]] and to use [[aws-iam-account-mfa]] multi-factor authentication.
 
 ### Groups
 
