@@ -16,3 +16,10 @@ Amazon reserves five addresses from each subnet:
 *.255 Broadcast (broadcast is *not* supported)
 ```
 
+
+Subnet size range allowed in AWS VPC. 
+```
+*/16 (65,536) 
+*/28 (256)
+```
+
