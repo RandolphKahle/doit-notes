@@ -7,8 +7,15 @@ tags:
 # aws-vpc
 
 Amazon Virtual Private Cloud. 
-Build and launch resources in an isolated section of the AWS system.
-You have complete control over the VPC details.
+
+Allows you to build and launch resources in an isolated section of the AWS system.
+
+## Concepts
+* **Virtual Private Cloud** - virtual network dedicated to an account.
+* **Subnet** - A range of IP addresses in a VPC
+* **Route Table** - Set of rules that determine where network traffic is directed.
+* **Internet Gateway** - An attached gateway that allows communication with the Internet.
+* **VPC Endpoint** - Supports private communication between a VPC and a supported AWS and VPC Endpoint services.
 
 ## Default VPC
 * Easy to use - ready to deploy EC2
