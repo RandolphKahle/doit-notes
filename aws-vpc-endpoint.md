@@ -9,7 +9,7 @@ tags:
 A VPC endpoint provides a private connection between a VPC
 and (supported) AWS service. 
 It is powered by *PrivateLink* without requiring an
-internet [[aws-gateway]], NAT device, VPN connection, or AwS
+internet [[aws-gateway]], [[network-nat]] device, VPN connection, or AwS
 Direct Connect connection.
 
 Instances on the VPC can use internal, private IP addresses.
