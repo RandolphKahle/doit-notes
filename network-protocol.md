@@ -1,8 +1,9 @@
 ---
 date: 2020-10-05T09:16
+tags:
+  - network
 ---
 
 # network-protocol
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
-
+Rules for information exchange between communicating devices on a network.
