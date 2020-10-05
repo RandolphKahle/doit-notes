@@ -11,7 +11,7 @@ tags:
 Allows you to build and launch resources in an isolated section of the AWS system.
 
 ## Concepts
-* **Virtual Private Cloud** - virtual network dedicated to an account.
+* **Virtual Private Cloud** - virtual network dedicated to an [[aws-iam-account]].
 * **Subnet** - A range of IP addresses in a VPC
 * **Route Table** - Set of rules that determine where network traffic is directed.
 * **Internet Gateway** - An attached gateway that allows communication with the Internet.
