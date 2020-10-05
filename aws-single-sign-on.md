@@ -11,7 +11,7 @@ tags:
 Single Sign On (SSO) is a service that centrally manages
 access to AWS and business applications.
 
-Uses [[saml]] and logs all activity into AWS Cloud Trail. 
+Uses [[[saml]]] and logs all activity into AWS Cloud Trail. 
 
 # Exam Tips
 
