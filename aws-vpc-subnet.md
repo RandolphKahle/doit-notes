@@ -1,8 +1,18 @@
 ---
 date: 2020-10-05T07:10
+tags:
+  - amazon/aws/vpc/
 ---
 
 # aws-vpc-subnet
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+### Reserved addresses
+Amazon reserves five addresses from each subnet:
+```
+*.0 Network address
+*.1 Outbound routing address
+*.2 DNS
+*.3 "Reserved for future use"
+*.255 Broadcast (broadcast is *not* supported)
+```
 
