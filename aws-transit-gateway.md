@@ -14,6 +14,6 @@ Connections are delegated out to the appropriate locations within AWS.
 
 Regional. But can be used cross-region.
 
-Supports [[network-protocol-multicast]].
+Supports [[[network-protocol-multicast]]].
 
 
