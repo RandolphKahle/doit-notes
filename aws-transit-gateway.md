@@ -13,3 +13,7 @@ With transit gateway a single gateway is used as an entry point and then acts a 
 Connections are delegated out to the appropriate locations within AWS.
 
 Regional. But can be used cross-region.
+
+Support IP multicast.
+
+
