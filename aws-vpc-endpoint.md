@@ -49,3 +49,7 @@ serves as an entry point for traffic destined to a supported service.
 
 ## Gateway Endpoint
 
+Appear as if they are a [[network-nat]] endpoint. Currently supported:
+* Amazon S3
+* DynamoDB
+
