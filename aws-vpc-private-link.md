@@ -5,6 +5,7 @@ tags:
 ---
 
 # aws-vpc-private-link
+# Private Link
 
 Supports the linkage of many *client* VPCs to a service VPC.
 The alternatives are:
@@ -15,4 +16,6 @@ Requires:
 * Network Load Balancer on the service side
 * Elastic Network Interface on the client side
 
-
+ # Exam Tips
+ 
+ Connect VPC to tens, hundreds, or thousands of customer VPC then think about Private Link.
