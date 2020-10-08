@@ -6,4 +6,6 @@ tags:
 
 # aws-vpc-gateway
 
-What is a *gateway*?
+A *gateway* is a horizontally scalable, redundant, and highly available connection service.
+
+
