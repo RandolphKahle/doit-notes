@@ -11,7 +11,7 @@ AWS Organizations is an account management service that enables you to consolida
 
 [[aws-account]]
 
-![note-001.pjg]
+![Notebook Page 001](./static/note-001.jpg)
 
 I watched a very brief introduction to AWS Organization concept. I'm not sure how it relates to GCP IAM structures... Need to sort this out.
 
