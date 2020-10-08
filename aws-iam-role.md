@@ -18,7 +18,7 @@ Example: A role "EC2 can access an S3 Bucket" would be an EC2 role associated wi
 
 
 
-? Can add tags ? - why? what do they do in this context?
+Can add [[aws-iam-tags]] ? - why? what do they do in this context?
 
 "InLine Policy" is coded within the role definition. They say the "scope" of the policy is limited to the specific "role".
 
