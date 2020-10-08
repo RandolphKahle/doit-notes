@@ -6,15 +6,17 @@ tags:
 
 # aws-iam-role
 
-I'm still not entirely certain how to describe an AWS IAM *role*. 
+An AWS IAM role is an association between parties and permissions.
 
-It seems to be the link between a policy and ??
+An **EC2 instance** can *write* to an **S3 bucket**.
+
+So, *arn* [[aws-iam-policy]] *arn* ??
+
 
 Example: A role "EC2 can access an S3 Bucket" would be an EC2 role associated with / bound to a policy show in the [[aws-iam-policy]] example.
 
-"Trusted Entity" -> "Role" -> "Policy"...
 
-? What are permission boundaries ?
+
 
 ? Can add tags ? - why? what do they do in this context?
 
