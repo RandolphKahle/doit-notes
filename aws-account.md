@@ -5,9 +5,13 @@ tags:
 ---
 
 # aws-account
+# AWS Account
 
-?? I am not really sure what an account is in the context of AWS. Is it similar to a GCP project ??
+An AWS account is a structure which owns resources within
+AWS, has a root user, and accumulates charges for the
+use of cloud resources. 
+It appears to be similar to a [[[gcp-project]]].
 
-Association of person to AWS.
+
 
 [[[z:zettels?tag=amazon/aws/account/]]]
