@@ -1,8 +1,11 @@
 ---
 date: 2020-10-08T15:13
+tags:
+  - amazon/aws/
 ---
 
 # aws-iam-tags
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+Tags are key-value metadata.
 
+Are they handled in any special way by AWS?
