@@ -4,7 +4,7 @@ tags:
     - amazon/aws/
 ---
 
-# aws-ccount
+# aws-account
 
 ?? I am not really sure what an account is in the context of AWS. Is it similar to a GCP project ??
 
