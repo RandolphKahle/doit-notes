@@ -12,6 +12,13 @@ AWS, has a root user, and accumulates charges for the
 use of cloud resources. 
 It appears to be similar to a [[[gcp-project]]].
 
+An account has:
+* Unique ID number
+* [[aws-arn]].
+* [[aws-iam-policy]]
+
+
+
 
 
 [[[z:zettels?tag=amazon/aws/account/]]]
