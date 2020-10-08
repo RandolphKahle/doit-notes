@@ -9,7 +9,7 @@ tags:
 
 AWS Organizations is an account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage. AWS Organizations includes account management and consolidated billing capabilities that enable you to better meet the budgetary, security, and compliance needs of your business. As an administrator of an organization, you can create accounts in your organization and invite existing accounts to join the organization
 
-[[aws-iam-account]]
+[[aws-account]]
 
 
 I watched a very brief introduction to AWS Organization concept. I'm not sure how it relates to GCP IAM structures... Need to sort this out.
