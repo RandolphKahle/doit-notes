@@ -5,6 +5,10 @@ tags:
 ---
 
 # aws-organization
+# Organization
+
+[[aws-iam-account]]
+
 
 I watched a very brief introduction to AWS Organization concept. I'm not sure how it relates to GCP IAM structures... Need to sort this out.
 
