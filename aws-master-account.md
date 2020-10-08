@@ -6,7 +6,7 @@ tags:
 
 # aws-master-account
 
-An AWS master account is a concept supported by the [[aws-organization]] service.
+An AWS master account is a concept supported by the [[[aws-organization]]] service.
 
 A master account can have control over regular [[aws-account]]s
 in an organizational structure. 
