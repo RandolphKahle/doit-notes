@@ -47,3 +47,4 @@ Network Address Translation - simply a way to provide isolation and a translatio
 
 NAT *instances* are no longer recommended as they are singular instead of a shared, secure, resilient service. (However, NAT instances may still be on the exam).
 
+[[[z:zettels?tag=amazon/aws/vpc/*]]]
