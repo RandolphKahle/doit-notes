@@ -41,6 +41,7 @@ An [[[network-protocol-ipsec]]] link between an external network and a VPC. Requ
 
 ## Internet Gateway
 
-
+## Security Group
+A security group is tied to a VPC.
 
 [[[z:zettels?tag=amazon/aws/vpc/*]]]
