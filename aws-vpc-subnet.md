@@ -6,7 +6,7 @@ tags:
 
 # VPC subnet
 
-[[aws-vpc]] subnets are a partioned subset CIDR block of
+[VPC](aws-vpc) subnets are a partioned subset CIDR block of
 IP address from the containing VPC CIDR block.
 
 
