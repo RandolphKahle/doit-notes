@@ -18,7 +18,7 @@ From the aCloud.guru course it appears that there is a "public" and a "private" 
 * Increase consistency
 * Increase bandwidth
 
-![Direct Connect](./static/direct_connect_overview.jpg)
+![Direct Connect](./static/direct_connect_overview.png)
 
 ## Virtual Interface
 
