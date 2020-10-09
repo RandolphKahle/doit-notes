@@ -4,7 +4,6 @@ tags:
   - amazon/aws/vpc/
 ---
 
-# aws-vpc-global-accelerator
 # Global Accelerator
 
 
@@ -35,3 +34,4 @@ Endpoints may have traffic weights.
 
 ![Global Accelerator](./static/aga-ip-preservation-alb.png){.ui .centered .image}      
 
+### aws-vpc-global-accelerator
