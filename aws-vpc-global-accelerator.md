@@ -1,8 +1,12 @@
 ---
 date: 2020-10-09T14:19
+tags:
+  - amazon/aws/vpc/
 ---
 
 # aws-vpc-global-accelerator
+# Global Accelerator
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+![Global Accelerator](./static/aga_ip_preservation_alb.png)
+
 
