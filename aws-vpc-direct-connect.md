@@ -18,6 +18,13 @@ From the aCloud.guru course it appears that there is a "public" and a "private" 
 * Increase consistency
 * Increase bandwidth
 
+AWS Direct Connect offers:
+* Public Virtual Interface
+* Private Virtual Interface
+* Transit Virtual Interface
+
+
+
 ## Sets to set up a Direct Connection
 * Create a Public Virtual Interface (for ...)
 * Create a Customer Gateway in the VPN configuration section of VPC
