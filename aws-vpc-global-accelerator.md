@@ -22,6 +22,13 @@ On the Amazon side, the connection terminates at one of two IP addresses. Each i
 On the client-facing side, there are listener processes that support TCP and UDP and can be configured for one or more IP ports. 
 The listeners are ?associated? with an (or more?) endpoint groups.
 
+Each endpoint group is associated with an AWS [Region](aws-region) and contain one or more endpoints.
+A *traffic dial* can be used to direct a % of network traffic to the different endoint groups.
+
+An [Endpoint](aws-vpc-endpoint) can be a Network Load Balancer,
+Application Load Balancer, EC2 instance, or an Elastic IP address.
+
+
 
 
 
