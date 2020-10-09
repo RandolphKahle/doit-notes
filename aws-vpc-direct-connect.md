@@ -18,11 +18,19 @@ From the aCloud.guru course it appears that there is a "public" and a "private" 
 * Increase consistency
 * Increase bandwidth
 
+## Virtual Interface
+
 AWS Direct Connect offers:
 * Public Virtual Interface
 * Private Virtual Interface
 * Transit Virtual Interface
 
+### Public Virtual Interface
+Used to connect to AWS services that are exposed through a public IP address, such as S3.
+* Connect to all AWS public interfaces globally
+* Access publically routable service in any region except AWS China)
+
+### Private Virtual Interface
 
 
 ## Sets to set up a Direct Connection
