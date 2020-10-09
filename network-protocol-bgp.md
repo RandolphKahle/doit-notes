@@ -1,8 +1,11 @@
 ---
 date: 2020-10-09T09:20
+tags:
+  - network/protocol/
 ---
 
 # network-protocol-bgp
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+# Border Gateway Protocol
 
+A protocol used to share internal network addresses and blocks with an autonomous network with another autonomous network.
