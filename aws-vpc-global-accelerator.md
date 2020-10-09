@@ -17,7 +17,7 @@ Amazon has AWS *edge locations* in many parts of the world. One side of an edge 
 The Global Accelerator provides a more direct path, as illustrated:
 
 ![Accelerated Path](./static/accelerator.png){.ui .centered .image}    
-On the Amazon side, the connection terminates at one of two IP addresses. Each in their own *network zone*. Two addresses are provided for HA redundancy.
+On the Amazon side, the connection terminates at one of two IP addresses. Each in their own *network zone*. Two network zones and addresses are provided for HA redundancy.
 
 On the client-facing side, there are listener processes that support TCP and UDP and can be configured for one or more IP ports. 
 The listeners are ?associated? with an (or more?) endpoint groups.
