@@ -27,6 +27,7 @@ A *traffic dial* can be used to direct a % of network traffic to the different e
 
 An [Endpoint](aws-vpc-endpoint) can be a Network Load Balancer,
 Application Load Balancer, EC2 instance, or an Elastic IP address.
+Endpoints may have traffic weights.
 
 
 
