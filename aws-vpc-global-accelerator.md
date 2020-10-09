@@ -7,7 +7,7 @@ tags:
 # Global Accelerator
 
 
-A Global Accelerator provides a mechanism to avoid sending network traffic from a user to resources in AWS across a portion of the public internet.
+A Global Accelerator provides a mechanism to reduce network traffic flowing across the public internet.
 
 Amazon has AWS *edge locations* in many parts of the world. One side of an edge location connects to the public internet and the other to the Amazon backbone network. Instead of having traffic route through many ISPs on the way to Amazon, as illustrated:
 
