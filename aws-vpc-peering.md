@@ -1,8 +1,16 @@
 ---
 date: 2020-10-08T22:11
+tags:
+  - amazon/aws/vpc/
 ---
 
 # aws-vpc-peering
+# VPC Peering
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+Allow you to connect one VPC with another using private IP 
+addresses.
+
+* Instance behave as if they are on the same VPC
+* Peer with other VPC in the same account
+* Peer with other VPC in another account
 
