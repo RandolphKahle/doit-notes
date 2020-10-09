@@ -6,19 +6,23 @@ tags:
 
 # aws-vpc-direct-connect
 # Direct Connect
-Establish a *dedicated* network connection between external location and AWS.
-Because it is a dedicated 'wire' it is inherently **more secure** than a virtual circuit across the public internet.
 
-Connect to a Direct Connect location (DX). 
-We are talking about cage to cage connection with a physical line.
+A Direct Connect is a *dedicated* network connection between AWS and a location external to AWS.
+Because it is a dedicated network circuit and not a connection over the public network, it is inherently **more secure**.
 
-From the aCloud.guru course it appears that there is a "public" and a "private" virtual circuit. Public going to services such as S3 and private going to, e.g., our VPCs.
+![Direct Connect](./static/direct_connect_overview.png)
 
+In the middle of the diagram, within the AWS Direct Connect location (a physical location) there are two cages of equipment. Once with an AWS router and the other with the customer
+router.
+A direct network connection is made between the AWS router and the customer router.
+
+Across the direct network connect two VLAN circuits are configured. One for access to the private IP address range and the other to all public IP addresses at AWS.
+
+The advantages of a Direct Connect are:
 * Reduce network costs 
 * Increase consistency
 * Increase bandwidth
 
-![Direct Connect](./static/direct_connect_overview.png)
 
 ## Virtual Interface
 
