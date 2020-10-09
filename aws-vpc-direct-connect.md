@@ -14,7 +14,7 @@ We are talking about cage to cage connection with a physical line.
 
 From the aCloud.guru course it appears that there is a "public" and a "private" virtual circuit. Public going to services such as S3 and private going to, e.g., our VPCs.
 
-* Reduce network costs
+* Reduce network costs 
 * Increase consistency
 * Increase bandwidth
 
