@@ -6,6 +6,21 @@ tags:
 
 # aws-vpc-subnet
 
+AWS requires [[aws-compute-ec2]] instances to be associated 
+with a specific subnet and cannot be a part of the [[aws-vpc]] itself.
+
+For example, if the VPC has the CIDR block
+```
+10.0.0.0/16
+```
+Then the network address cannot overlap with a subnet.
+Potential subnet CIDR blocks are then:
+```
+10.0.1.0/24
+10.0.2.0/24
+```
+
+
 ### Reserved addresses
 Amazon reserves five addresses from each subnet:
 ```
@@ -19,7 +34,7 @@ Amazon reserves five addresses from each subnet:
 
 Subnet size range allowed in AWS VPC. 
 ```
-*/16 (65,536) 
+*/16 (65536) 
 */28 (256)
 ```
 
