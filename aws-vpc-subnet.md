@@ -34,8 +34,8 @@ Amazon reserves five addresses from each subnet:
 
 Subnet size range allowed in AWS VPC. 
 ```
-*/16 (65536) 
-*/28 (256)
+*/16 (65536 - 65531 usable) 
+*/28 (256 - 251 usable)
 ```
 
 
