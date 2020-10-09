@@ -9,4 +9,6 @@ tags:
 
 ![Global Accelerator](./static/aga_ip_preservation_alb.png)
 
+![Non accelerated path](./static/non-accelerator.png)
 
+![Accelerated Path](./static/accelerator.png)
