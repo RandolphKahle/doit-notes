@@ -13,5 +13,6 @@ addresses.
 * Instance behave as if they are on the same VPC
 * Peer with other VPC in the same account
 * Peer with other VPC in another account
+* Peer with another VPC in a different [[aws-region]].
 * *Not* transitive. Peers can only forward to their directly connected VPCs.
 
