@@ -14,7 +14,7 @@ backbone network located as close as possible to end users.
 The user-facing point is an Amazon Edge Location. The Amazon facing location is a *network zone* (not an availability zone). 
 
 
-![Global Accelerator](./static/aga_ip_preservation_alb.png)
+![Global Accelerator](./static/aga-ip-preservation-alb.png)
 
 ![Non accelerated path](./static/non-accelerator.png)
 
