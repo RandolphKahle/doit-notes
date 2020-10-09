@@ -5,9 +5,11 @@ tags:
 ---
 
 # aws-vpc-subnet
+# VPC subnet
 
-AWS requires [[aws-compute-ec2]] instances to be associated 
-with a specific subnet and cannot be a part of the [[aws-vpc]] itself.
+[[aws-vpc]] subnets are a partioned subset CIDR block of
+IP address from the VPC CIDR block.
+
 
 For example, if the VPC has the CIDR block
 ```
@@ -19,6 +21,11 @@ Potential subnet CIDR blocks are then:
 10.0.1.0/24
 10.0.2.0/24
 ```
+
+## EC2
+
+[[aws-compute-ec2]] instances must be bound to a VPC subnet
+and cannot be bound to the [[aws-vpc]] CIDR block.
 
 
 ### Reserved addresses
