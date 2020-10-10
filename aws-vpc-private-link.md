@@ -32,10 +32,7 @@ interface.
 
 In some situations (AWS services and AWS Marketplace Partner services) a private DNS for the endpoint can be enabled.
 
-Supports the linkage of many *client* VPCs to a service VPC.
-The alternatives are:
-* Open the service to the internet
-* Create N:1 VPC peering relationships.
+## Provider Side
 
 Requires:
 * Network Load Balancer on the service side
