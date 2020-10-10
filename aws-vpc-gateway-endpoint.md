@@ -7,7 +7,7 @@ tags:
 
 # Gateway Endpoint
 
-An elastic network interface [[aws-vpc-interface-endpoint]] that appears as if it is [[[network-nat]]] endpoint. Currently supported:
+An [[aws-vpc-elastic-network-interface]] [[aws-vpc-interface-endpoint]] that appears as if it is [[[network-nat]]] endpoint. Currently supported:
 * Amazon S3
 * DynamoDB
 
