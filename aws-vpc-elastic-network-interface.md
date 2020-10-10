@@ -19,10 +19,18 @@ Can include:
 * A source/destination check flag
 * A description
 
+This type of network interface is an indepdent entity. 
+It can be attached, removed, and re-attached to
+different instances while maintaining its independent
+attributes.
+The security groups, IP address, etc. can be changed 
+and those change remain with the interface object.
+
+A VPC flow log may be associated with the interface.
 
 
 
 ## Elastic IP Address
-What is an elastic IP address?
+
 
 ### aws-vpc-elastic-network-interface
