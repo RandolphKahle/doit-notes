@@ -6,8 +6,7 @@ tags:
 
 # Requester Managed Network Interface
 
-A VPC ?elastic? network interface that is managed by the remote service.
-
+A VPC [[aws-vpc-elastic-network-interface]] that is managed by the remote service.
 
 
 ### aws-vpc-requester-managed-network-interface
