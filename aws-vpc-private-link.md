@@ -21,6 +21,17 @@ Also works with [Direct Connect](aws-vpc-direct-connect) to support a private co
 
 ![Private Link](./static/privatelink_overview.jpg)
 
+## Client side
+
+An *Interface Endpoint* is created in a specific VPC. The interface endpoint ??has the name of the remote 'service' associated with it??
+
+Within a subnet an *endpoint network interface* presents a private IP address that allows network traffic to flow to the remote service.
+
+Security groups may be associated with the endpoint network
+interface.
+
+In some situations (AWS services and AWS Marketplace Partner services) a private DNS for the endpoint can be enabled.
+
 Supports the linkage of many *client* VPCs to a service VPC.
 The alternatives are:
 * Open the service to the internet
