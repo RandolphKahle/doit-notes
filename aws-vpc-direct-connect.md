@@ -44,7 +44,7 @@ Used to connect to AWS VPC based resources.
 * Connect Private Virtual Interface to a DX Gateway which is then associated with Virtual Private Gateway(s) in any other AWS Region.
 * Connect to multiple VPCs in any AWS Region (because a virtual private gateway is associated with a single VPC)
 
-Private IP CIDR is advertised over [[[network-protocol-bgp]]].
+Private IP CIDR is advertised over [[network-protocol-bgp]].
 
 ### Transit Virtual Interface
 
