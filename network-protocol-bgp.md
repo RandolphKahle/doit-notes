@@ -1,7 +1,6 @@
 ---
 date: 2020-10-09T09:20
 tags:
-  - network/
   - network/protocol/
 ---
 
