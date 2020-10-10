@@ -8,12 +8,12 @@ tags:
 
 PrivateLink provides a private connection between VPCs
 and:
+* Your own VPC
 * AWS services
 * AWS Marketplace applications
-* ?Your own VPCs?
 * On-premise services
 
-by providing a private [Interface Endpoint](aws-vpc-interface-endpoint).
+by providing a private [Elastic Network Interface](aws-vpc-elastic-network-interface).
 
 Eliminates the need for an [Internet Gateway](aws-vpc-internet-gateway), [NAT device](aws-vpc-gateway-nat), or a public IP address.
 
