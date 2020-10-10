@@ -11,7 +11,7 @@ A VPC endpoint is a horizontally scaled, redundant, and highly available IP comm
 with various services such as [[aws-vpc-private-link]].
 
 There are two types of VPC endpoints:
-* Interface Endpoints
+* [Interface Endpoint](aws-vpc-interface-endpoint)
 * Gateway Endpoints
 
 
