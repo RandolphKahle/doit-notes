@@ -12,13 +12,7 @@ with various services such as [[aws-vpc-private-link]].
 
 There are two types of VPC endpoints:
 * [Interface Endpoint](aws-vpc-interface-endpoint)
-* Gateway Endpoints
+* [Gateway Endpoint](aws-vpc-gateway-endpoint)
 
-
-## Gateway Endpoint
-
-Appear as if they are a [[network-nat]] endpoint. Currently supported:
-* Amazon S3
-* DynamoDB
 
 ### aws-vpc-endpoint
