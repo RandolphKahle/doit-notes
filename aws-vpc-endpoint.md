@@ -4,20 +4,12 @@ tags:
   - amazon/aws/vpc/
 ---
 
-# aws-vpc-endpoint
 # VPC Endpoint
 
 
-A VPC endpoint provides a private connection between a VPC
-and (supported) AWS service. 
-It is powered by *PrivateLink* without requiring an
-internet [[aws-gateway]], [[network-nat]] device, VPN connection, or AwS
-Direct Connect connection.
+A VPC endpoint is a horizontally scaled, redundant, and highly available IP communication port. They may be associated
+with various services such as [[aws-vpc-private-link]].
 
-Instances on the VPC can use internal, private IP addresses.
-All traffic is on the Amazon network.
-
-Endpoints are virtual and can be horizontally scaled, redundant, and HA.
 
 ## Interface Endoint
 
@@ -53,3 +45,4 @@ Appear as if they are a [[network-nat]] endpoint. Currently supported:
 * Amazon S3
 * DynamoDB
 
+### aws-vpc-endpoint
