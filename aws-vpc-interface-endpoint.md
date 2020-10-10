@@ -6,7 +6,7 @@ tags:
 
 # Interface Endpoint
 
-An elastic network interface with a private IP address that
+An elastic network interface [[aws-vpc-interface-endpoint]] with a private IP address that
 serves as an entry point for traffic destined to a supported service.
 
 * Amazon API Gateway
