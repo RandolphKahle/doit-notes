@@ -4,6 +4,10 @@ tags:
   - network/
 ---
 
-# network-protocol
+# Network Protocol
 
 Rules for information exchange between communicating devices on a network.
+
+[[[z:zettels?tag=network/protocol/*]]]
+
+### network-protocol
