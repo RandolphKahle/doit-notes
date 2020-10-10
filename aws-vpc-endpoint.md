@@ -39,8 +39,8 @@ serves as an entry point for traffic destined to a supported service.
 * Amazon SNS
 * Amazon SQS
 * AWS Systems Manager
-* Endpoint services hosted by other AWS accounts
-* Supported AWS Marketplace partner services
+* Endpoint services hosted by other AWS accounts through [[aws-vpc-private-link]].
+* Supported AWS Marketplace partner services through [[aws-vpc-private-link]]
 
 
 ## Gateway Endpoint
