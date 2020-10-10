@@ -13,7 +13,7 @@ and:
 * ?Your own VPCs?
 * On-premise services
 
-by providing a private [endpoint](aws-vpc-endpoint).
+by providing a private [Interface Endpoint](aws-vpc-endpoint).
 
 Eliminates the need for an [Internet Gateway](aws-vpc-internet-gateway), [NAT device](aws-vpc-gateway-nat), or a public IP address.
 
