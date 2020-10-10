@@ -36,7 +36,6 @@ In some situations (AWS services and AWS Marketplace Partner services) a private
 
 Requires:
 * Network Load Balancer on the service side
-* Elastic Network Interface on the client side
 
  # Exam Tips
  
