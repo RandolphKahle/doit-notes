@@ -4,8 +4,7 @@ tags:
   - network/
 ---
 
-# network-nat
-
 # Network Address Translation (NAT)
 
 
+### network-nat
