@@ -32,12 +32,65 @@ For example, if you upload version 1 of a file and then overwrite with version 2
 
 ### Storage Tiers
 
-* **S3 Standard**. Multiple devices in multiple facilities. Designed to survive the loss of two facilities concurrently.
-* **S3-IA**. S3 Infrequent Access. Less expensive, fast access, access charge.
-* **S3 One Zone - IA**. (Yikes!)
-* **S3 Intelligent Tiering**. 
-* **S3 Glacier**. Retrieval time configurable from minutes to hours.
-* **S3 Glacier Deep Archive**. Lowest cost. 12-hour retrieval (probably tape in a vault!)
+
+| Tier | Durability | Availability | Design-to | Access Charge |
+| --- | ----------- | --- | --- | --- |
+| S3 Standard |  | | |
+| S3 Infrequent Access  | | | |
+| S3 One Zone | | | |
+| S3 Intelligent Tiering | | | |
+| S3 Glacier | | | |
+| S3 Glacier Deep Archive | | | |
+
+
+#### S3 Standard
+
+
+| Storage | Price |
+| --- | ----------- |
+| < 50 TB | 0.0230 |
+| < 450 TB  | 0.0220 |
+| > 500 TB | 0.0210 |
+
+
+#### S3 Intelligent Tiering
+ Storage | Frequent Access | Infrequent Access | Management |
+| --- | ----------- | --- |  -- |
+| < 50 TB | 0.0230 |
+| < 450 TB  | 0.0220 |
+| > 500 TB | 0.0210 |
+| Infrequent Access Tier |  | 0.0125 |
+| Management | | | 0.2500 per 1,000 objects |
+
+
+
+#### S3 Standard Infrequent Access
+| Storage | Price |
+| --- | ----------- |
+| All | 0.0125 |
+
+
+#### S3 One Zone Infrequent Access
+
+| Storage | Price |
+| --- | ----------- |
+| All | 0.0100 |
+
+#### Glacier
+For 1 minute to 12 hours
+
+| Storage | Price |
+| --- | ----------- |
+| All | 0.0040 |
+
+
+#### Glacier Deep Archive
+12 Hour retrieval (probably in a tape vault)
+| Storage | Price |
+| --- | ----------- |
+| All | 0.00099 |
+
+
 
 ### Other
 * Lifecycle Management
