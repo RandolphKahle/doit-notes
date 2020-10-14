@@ -4,7 +4,6 @@ tags:
   - amazon/aws/vpc/gateway/
 ---
 
-# aws-vpc-gateway-nat
 # Network Address Translation
 
 
@@ -16,3 +15,4 @@ Network Address Translation - simply a way to provide isolation and a translatio
 
 NAT *instances* are no longer recommended as they are singular instead of a shared, secure, resilient service. (However, NAT instances may still be on the exam).
 
+### aws-vpc-nat-gateway

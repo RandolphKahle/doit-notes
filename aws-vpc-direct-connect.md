@@ -4,7 +4,6 @@ tags:
   - amazon/aws/vpc/
 ---
 
-# aws-vpc-direct-connect
 # Direct Connect
 
 A Direct Connect is a *dedicated* network connection between AWS and a location external to AWS.
@@ -63,3 +62,6 @@ Used to connect to resource through a transit gateway.
   * Virtual Private Gateway
   * Customer Gateway
 * Set up the VPN circuit on the customer hardware side of the connection.
+
+### aws-vpc-direct-connect
+

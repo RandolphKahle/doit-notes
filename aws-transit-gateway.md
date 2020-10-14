@@ -1,7 +1,7 @@
 ---
 date: 2020-10-06T10:15
 tags:
-  - amazon/aws/storage/gateway/
+  - amazon/aws/vpc/gateway/
 ---
 
 # Transit Gateway
