@@ -4,7 +4,6 @@ tags:
     - amazon/aws/storage/
 ---
 
-# aws-ebs
  
 # Elastic Block Storage
 
@@ -32,3 +31,4 @@ To move an EC2 instance to another availability zone:
 
 If you need to move to a different region, you must first move the AMI to the destination region. Once moved, create a new EC2 instance.
 
+### aws-ebs
