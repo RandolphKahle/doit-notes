@@ -4,4 +4,8 @@ tags:
     - amazon/aws/iam/
 ---
 
-# aws-iam-user
+# IAM User
+
+An individual known to AWS.
+
+### aws-iam-user
