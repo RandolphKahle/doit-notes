@@ -4,7 +4,7 @@ tags:
   - amazon/aws/storage/s3/
 ---
 
-# aws-s3-bucket-sharing
+# S3 Bucket Sharing
 
 There are three ways to implement the sharing of a bucket across AWS accounts.
 
@@ -20,3 +20,5 @@ Individual objects. Programatic access only.
 ## Cross-account IAM Roles. 
 
 Programatic and Console access.
+
+### aws-s3-bucket-sharing
