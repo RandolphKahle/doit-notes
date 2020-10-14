@@ -4,7 +4,6 @@ tags:
   - amazon/aws/vpc/
 ---
 
-# aws-vpc-peering
 # VPC Peering
 
 Allow you to connect one VPC with another using private IP 
@@ -16,3 +15,4 @@ addresses.
 * Peer with another VPC in a different [[aws-region]].
 * *Not* transitive. Peers can only forward to their directly connected VPCs.
 
+### aws-vpc-peering
