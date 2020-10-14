@@ -4,7 +4,7 @@ tags:
     - amazon/aws/iam/
 ---
 
-# aws-iam-role
+# IAM Role
 
 An AWS IAM role is an association between parties and permissions.
 
@@ -22,3 +22,4 @@ Can add [[aws-iam-tags]] ? - why? what do they do in this context?
 
 "InLine Policy" is coded within the role definition. They say the "scope" of the policy is limited to the specific "role".
 
+### aws-iam-role
