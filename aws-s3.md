@@ -33,14 +33,14 @@ For example, if you upload version 1 of a file and then overwrite with version 2
 ### Storage Tiers
 
 
-| Tier | Durability | Availability | Design-to | Access Charge |
-| --- | ----------- | --- | --- | --- |
-| S3 Standard |  | | |
-| S3 Infrequent Access  | | | |
-| S3 One Zone | | | |
-| S3 Intelligent Tiering | | | |
-| S3 Glacier | | | |
-| S3 Glacier Deep Archive | | | |
+| Tier | Durability | Availability SLA | Design-to | Notes |
+| --- | ---: | ---: | ---: | --- |
+| S3 Standard | 99.999999999% | 99.9% | 99.99% | 2 facility loss |
+| S3 Intelligent Tiering | 99.999999999% | 99% | 99.9% |2 facility loss |
+| S3 Infrequent Access  | 99.999999999% | 99% |99.9% | 2 facility loss|
+| S3 One Zone | 99.999999999%  | 99% |99.5% | Uses only 1 zone|
+| S3 Glacier | 99.999999999% | N/A| N/A| 2 facility loss|
+| S3 Glacier Deep Archive | 99.999999999% |N/A |N/A | 2 facility loss|
 
 
 #### S3 Standard
