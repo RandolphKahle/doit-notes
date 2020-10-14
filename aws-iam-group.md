@@ -4,7 +4,7 @@ tags:
     - amazon/aws/iam/
 ---
 
-# aws-iam-group
+# IAM Group
 
 Aggregation of users to which IAM policies are applied.
 
@@ -13,4 +13,4 @@ Useful for simplifying adminitration and dealing with users onboarding and leavi
 Policies are by *capability name* or by *job function*, such as administrator.
 
 
-
+### aws-iam-group
