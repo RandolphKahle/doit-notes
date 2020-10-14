@@ -21,6 +21,9 @@ Allows you to build and launch resources in an isolated section of the AWS syste
 * All instances have public and private IP addresses.
 
 ## Custom VPC
+* No subnets allocated
+* Default NACL (block everything)
+* Default Security Group (Do not allow anything)
 
 ## VPC Peering
 Connect to subnets.
