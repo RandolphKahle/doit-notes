@@ -4,8 +4,7 @@ tags:
     - amazon/aws/iam/
 ---
 
-# aws-iam-policy-document
-
+# IAM Policy Document
 
 Technical
 
@@ -26,3 +25,4 @@ to all resource, also know as the administrator!
   ]
 }
 ```
+### aws-iam-policy-document
