@@ -11,4 +11,6 @@ An [[aws-vpc-elastic-network-interface]] [[aws-vpc-interface-endpoint]] that app
 * Amazon S3
 * DynamoDB
 
+[[[z:zettels?tag=amazon/aws/vpc/gateway/*]]]
+
 ### aws-vpc-gateway-endpoint
