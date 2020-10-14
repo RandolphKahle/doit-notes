@@ -4,7 +4,7 @@ tags:
   - amazon/aws/storage/s3/
 ---
 
-# aws-s3-pricing
+# S3 Pricing
 
 Charges for:
 * Storage (by GB)
@@ -14,26 +14,47 @@ Charges for:
 
 ## Storage
 ### S3
-First 50 TB. 2.3¢  
-Next 450 TB. 2.2¢  
-Over 500 TB. 2.1¢  
+
+| Storage | Price |
+| --- | ----------- |
+| < 50 TB | 0.0230 |
+| 50 TB–450 TB  | 0.0220 |
+| > 500 TB | 0.0210 |
 
 ### S3 Intelligent Tiering
-First 50 TB. 2.3¢  
-Next 450 TB. 2.2¢  
-Over 500 TB. 2.1¢  
-IA Tier  1.25¢
-Management 0.25¢ per 1,000 objects
+
+| Storage | Price |
+| --- | ----------- |
+| < 50 TB | 0.0230 |
+| 50 TB–450 TB  | 0.0220 |
+| > 500 TB | 0.0210 |
+| IA Tier | 0.0125 |
+| Management | 0.2500 per 1,000 objects |
 
 ### S3 IA
-1.25¢
+
+| Storage | Price |
+| --- | ----------- |
+| All | 0.0125 |
+
 
 
 ### S3 IA One Zone
-1.00¢
+| Storage | Price |
+| --- | ----------- |
+| All | 0.0100 |
+
 
 ### S3 Glacier
-0.4¢
+| Storage | Price |
+| --- | ----------- |
+| All | 0.004 |
+
 
 ### S3 Glacier Deep Archive
-0.099¢
+| Storage | Price |
+| --- | ----------- |
+| All | 0.00099 |
+
+
+# aws-s3-pricing
