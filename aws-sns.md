@@ -1,8 +1,25 @@
 ---
 date: 2020-10-14T17:36
 ---
+# Simple Notification Service
 
-# aws-sns
+Pushed-based message delivery system.
+Designed for immediate delivery of messages to topics.
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+Output to:
+* Apple
+* Google
+* Fire OS
+* Windows devices
+* Android devices
+* Baidu Cloud Push (for China)
+* SMS
+* Email
+* HTTP endpoing
+* SQS Queue
 
+### Durability
+
+Messages are stored in multiple availability zones.
+
+### aws-sns
