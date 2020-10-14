@@ -22,8 +22,9 @@ Allows you to build and launch resources in an isolated section of the AWS syste
 
 ## Custom VPC
 * No subnets allocated
-* Default NACL (block everything)
-* Default Security Group (Do not allow anything)
+* Default route table (all goes to VPC CIDR block)
+* Default NACL (allows everything)
+* Default Security Group (allows everything)
 
 ## VPC Peering
 Connect to subnets.
