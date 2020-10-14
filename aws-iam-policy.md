@@ -4,7 +4,7 @@ tags:
     - amazon/aws/iam/
 ---
 
-# aws-iam-policy
+# IAM Policy
 
 A policy is a JSON formated document that defines permissions. A policy much be *attached* to take effect.
 
@@ -23,7 +23,7 @@ A policy is simply a list of statements in a JSON format
 }
 ```
 
-Each statement represents an AWS API request, such as starting an [[aws-compute-ec2-instance]].
+Each statement represents an AWS API request, such as starting an [[aws-compute-ec2]] instance.
 
 ```
 {
@@ -65,4 +65,6 @@ Used to set an upper limit on permissions granted by a delegatee?
 
 For example, a user is granted full rights to all of AWS... A super user... Then set a permission boundary to limit to administration of DynamoDB. Then the only things this user can do are the
 administrative functions related to DynamoDB.
+
+### aws-iam-policy
 
