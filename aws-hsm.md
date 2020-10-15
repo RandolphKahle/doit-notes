@@ -13,7 +13,9 @@ tags:
 * Multi-AZ cluster
 * Runs within the context of a VPC
 * Industry standard APIs
-* 
+* Injects ENIs into subnets
+
+* User is responsible for HA configuration.
 
 
 ![CloudHSM](./static/cloud-hsm.png)
