@@ -15,8 +15,8 @@ Original AWS service.
   * 256K in-message
   * 2GB in S3
 * Type
-  * Standard (no ordering, deliver at least once, no order)
-    * Extremely high through-put
+  * Standard (deliver at least once, no order)
+    * Extremely high throughput
   * FIFO (guaranteed order, deliver once)
     * 300 TPS
 
