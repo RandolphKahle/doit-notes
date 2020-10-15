@@ -1,8 +1,16 @@
 ---
 date: 2020-10-14T18:03
+tags:
+  - amazon/aws/
 ---
 
-# aws-web-identity-federation
+# Web Identity Federation and Cognito
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+Coordinates authentication by Amazon, Facebook, Google, etc. Receives the authentication code and then trades this for temporary AWS security credentials.
 
+
+
+
+
+
+### aws-web-identity-federation
