@@ -14,13 +14,19 @@ Original AWS service.
 * Message size
   * 256K in-message
   * 2GB in S3
-* Type
-  * Standard (deliver at least once, no order)
-    * Extremely high throughput
-  * FIFO (guaranteed order, deliver once)
-    * 300 TPS
+    
+## Type
 
-### Notes
+### Standard
+  * No order
+  * Deliver at least once
+  * Extremely high throughput
+### FIFO
+  * Guaranteed order
+  * Deliver once
+  * 300 TPS
+
+## Notes
 #### Visibility timeout 
 The time a message is hidden during client processing. If the client fails to process within this window then the message reappears in the queue.   
 Maximum 12 hours.
