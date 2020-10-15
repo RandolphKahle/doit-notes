@@ -11,6 +11,8 @@ Coordinates authentication using services such as Facebook, Google, etc.
 
 Essentially Cognito maps between Google authentication tokens and an IAM role within AWS.
 
+![Cognito Process Flow](./static/CognitoDiagram.png)
+
 * Access for guest
 * Identity broker between an application and Web ID providers
 * Synchronizes user data for multiple devices
