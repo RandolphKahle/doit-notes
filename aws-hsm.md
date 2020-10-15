@@ -16,6 +16,6 @@ tags:
 * 
 
 
-
+![CloudHSM](./static/cloud-hsm.png)
 
 ### aws-hsm
