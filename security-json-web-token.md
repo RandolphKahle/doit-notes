@@ -1,8 +1,10 @@
 ---
 date: 2020-10-15T06:07
+tags:
+  - security
 ---
 
-# security-json-web-token
+# JWT - JSON Web Token
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
 
+### security-json-web-token
