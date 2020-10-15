@@ -19,8 +19,14 @@ Essentially Cognito maps between Google authentication tokens and an IAM role wi
 
 A user directory managing sign-up and sign-in functionality for web and mobile applications. 
 Users sign-in directly to the User Pool or using Facebook, Amazon, or Google.
-Successful authentication generates a JWT.
+Successful authentication generates a [[security-json-web-token]].
+
+Authorization to use AWS resources.
 
 ## Identity Pool
+
+The granting of access to an AWS resource.
+
+
 
 ### aws-cognito
