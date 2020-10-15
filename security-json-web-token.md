@@ -1,7 +1,8 @@
 ---
 date: 2020-10-15T06:07
 tags:
-  - security
+  - security/
+  - amazon/aws/security/
 ---
 
 # JWT - JSON Web Token
