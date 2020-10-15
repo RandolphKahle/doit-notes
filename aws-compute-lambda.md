@@ -19,5 +19,37 @@ Serverless execution of code.
   * Go
   * PowerShell
 
+## Pricing
+* Requests
+  * First 1M free
+  * Subsequent 1M $0.20
+* Duration
+  * $0.x per GB-second
+  
+## Triggers that call Lambda
+* API Gateway
+* AWS IoT
+* Application Load Balancer
+* CloudWatch events
+* CloudWatch Logs
+* Code Commit
+* Cognito Sync Trigger
+* DynamoDB
+* Kinesis
+* S3 
+* SNS
+* SQS
+
+## Services that Lambda can call
+* Aurora Servless
+* DynamoDB
+* API Gateway
+* S3
+* Lambda functions!
+
+## x-ray
+
+Helps debug serverless applications
+
 
 ### aws-compute-lambda
