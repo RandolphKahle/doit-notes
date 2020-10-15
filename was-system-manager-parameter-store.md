@@ -1,8 +1,7 @@
 ---
 date: 2020-10-15T09:17
+tags:
+  - amazon/aws/security
 ---
 
-# was-system-manager-parameter-store
-
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
-
+### aws-system-manager-parameter-store
