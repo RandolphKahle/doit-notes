@@ -1,7 +1,7 @@
 ---
 date: 2020-10-04T12:15
 tags:
-  - amazon/aws/
+  - amazon/aws/network/
 ---
 
 # Amazon Virtual Private Cloud. 
