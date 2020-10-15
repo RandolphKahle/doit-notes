@@ -6,5 +6,8 @@ tags:
 
 # JWT - JSON Web Token
 
+TBD: Extract and interpret:
+
+<https://medium.com/@darutk/understanding-id-token-5f83f50fa02e>
 
 ### security-json-web-token
