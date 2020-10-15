@@ -29,6 +29,8 @@ Authorization to use AWS resources.
 
 The granting of access to an AWS resource.
 
+## Tracking
 
+Cognito will track the association between user identity and devices. Uses [[aws-sns]] push-synchronization to keep all devices current.
 
 ### aws-cognito
