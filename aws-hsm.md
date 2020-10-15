@@ -1,8 +1,21 @@
 ---
 date: 2020-10-15T08:24
+tags:
+  - amazon/aws/security/
 ---
 
-# aws-hsm
+# CloudHSM - Hardware Security Module
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+* Hardware based
+* FIPS 140-2 Level 3
+* Single tennet
+* Dedicated hardware
+* Multi-AZ cluster
+* Runs within the context of a VPC
+* Industry standard APIs
+* 
 
+
+
+
+### aws-hsm
