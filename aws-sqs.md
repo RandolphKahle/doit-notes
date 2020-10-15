@@ -9,7 +9,7 @@ tags:
 Original AWS service.
 
 * Distributed message queue system
-* Retention up to 14 days
+* Retention up to 14 days (default is 4 days)
 * Pull based system
 * Message size
   * 256K in-message
