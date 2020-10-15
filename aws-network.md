@@ -1,10 +1,9 @@
 ---
 date: 2020-10-01T08:42
 tags:
-  - amazon/aws/compute/
+  - amazon/aws/network/
 ---
 
-#aws-compute-network
 
 ## Network Interface
 
@@ -45,3 +44,4 @@ Bypasses the OS and talks directly to the EFA.
 From Amazon:
 >With EFA, High Performance Computing (HPC) applications using the Message Passing Interface (MPI) and Machine Learning (ML) applications using NVIDIA Collective Communications Library (NCCL) can scale to thousands of CPUs or GPUs. 
 
+### aws-network
