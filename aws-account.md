@@ -18,9 +18,10 @@ plans:
 * [[aws-account-support-business]]
 * [[aws-account-support-enterprise]]
 
+Two types of account: **root** and **IAM User**.
 
 
-It appears to be similar to a [[[gcp-project]]].
+It appears to be similar to a [[[gcp-project]]] and a billing account.
 
 An account has:
 * Unique ID number
