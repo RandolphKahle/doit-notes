@@ -1,8 +1,14 @@
 ---
 date: 2020-10-17T07:27
+tags:
+  - amazon/aws/account/
 ---
 
-# aws-account-support-developer
+# Developer AWS Support
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+## $29/month
 
+* Email access to AWS support during business hours
+* 12 (business)-hour response times
+
+### aws-account-support-developer
