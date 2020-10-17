@@ -1,8 +1,17 @@
 ---
 date: 2020-10-17T07:25
+tags:
+  - amazon/aws/account/
 ---
 
-# aws-account-support-basic
+# Basic AWS Support
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+## Free Tier
 
+* 24/7 self-service access to AWS resources
+* For account and billing issues *only*
+* Access to Personal Health Dashboard & Trusted Advisor
+
+
+
+### aws-account-support-basic
