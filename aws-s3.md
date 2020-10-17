@@ -36,12 +36,12 @@ Durability is the same for all tiers—99.999999999%
 
 | Tier | Availability SLA | Design-to | Notes |
 | --- |  ---: | ---: | --- |
-| S3 Standard  | 99.9% | 99.99% | 2 facility loss |
-| S3 Intelligent Tiering | 99% | 99.9% |2 facility loss |
-| S3 Infrequent Access   | 99% |99.9% | 2 facility loss|
-| S3 One Zone  | 99% |99.5% | Uses only 1 zone|
-| S3 Glacier | | | 2 facility loss|
-| S3 Glacier Deep Archive | | | 2 facility loss|
+| [[aws-s3-standard]]  | 99.9% | 99.99% | 2 facility loss |
+| [[aws-s3-standard-intelligent-tiering]] | 99% | 99.9% |2 facility loss |
+| [[aws-s3-standard-infrequent-access]]   | 99% |99.9% | 2 facility loss|
+| [[aws-s3-standard-infrequent-access-single-zone]]  | 99% |99.5% | Uses only 1 zone|
+| [[aws-s3-glacier]] | | | 2 facility loss|
+| [[aws-s3-glacier-deep-archive]] | | | 2 facility loss|
 
 
 #### S3 Standard
