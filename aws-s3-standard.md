@@ -4,4 +4,12 @@ tags:
   - amazon/aws/storage/s3/
 ---
 
-# aws-s3-standard
+# S3 Standard
+
+Top-tier storage.
+
+Designed for low latency and high throughput performance.
+
+Supports SSL for data in transit and encryption at rest.
+
+### aws-s3-standard
