@@ -4,7 +4,19 @@ tags:
   - amazon/aws/storage/s3/
 ---
 
-# aws-s3-standard-infrequent-access-single-zone
+
+# S3 One-Zone Infrequent Access (S3 One-Zone IA)
+
+
+20% less than Standard IA
+
+Customer must be prepared for data loss. 
+
+Good for secondary backups (onpremise, other regions using Cross-Region-Replication)
+
+**Not resilient to one-zone destruction**
+
+
 
 Durability: 99.999999999%  
 Availability: 99%
@@ -17,3 +29,4 @@ S3 One Zone-IA offers a 99% available SLA and is also designed for eleven 9’s 
 
 S3 One Zone-IA storage offers the same Amazon S3 features as S3 Standard and S3 Standard-IA and is used through the Amazon S3 API, CLI and console. S3 One Zone-IA storage class is set at the object level and can exist in the same bucket as S3 Standard and S3 Standard-IA storage classes. You can use S3 Lifecycle policies to automatically transition objects between storage classes without any application changes.
 
+### aws-s3-standard-infrequent-access-single-zone

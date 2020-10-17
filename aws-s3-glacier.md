@@ -4,6 +4,21 @@ tags:
   - amazon/aws/storage/s3/ 
 ---
 
-# aws-s3-glacier
+
+# S3 Glacier
+
+Resilient against one-zone destruction
+
+Configurable retrieval - minutes to hours (pay for faster?)
+
+ Objects disbursed across at least three geographically-dispersed AZs.
+
+ Alternative to tape storage
+
+ Retrieval within 12 hours
+
+ 
+
+### aws-s3-glacier
 
 
