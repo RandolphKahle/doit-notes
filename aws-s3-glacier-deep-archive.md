@@ -4,4 +4,14 @@ tags:
   - amazon/aws/storage/s3/
 ---
 
-# aws-s3-glacier-deep-archive
+# S3 Glacier Deep Archive
+
+Very long term storage (7 to 10 years)
+
+12-hour retrieval time
+
+Multiple AZ
+
+
+
+### aws-s3-glacier-deep-archive
