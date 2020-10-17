@@ -8,4 +8,3 @@ A uniquely identified storage location within the S3 object store that contains 
 
 
 ### aws-s3-bucket
-
