@@ -87,6 +87,7 @@ For 1 minute to 12 hours
 
 #### Glacier Deep Archive
 12 Hour retrieval (probably in a tape vault)
+
 | Storage | Price |
 | --- | ----------- |
 | All | 0.00099 |
