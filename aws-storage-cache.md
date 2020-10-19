@@ -1,8 +1,28 @@
 ---
 date: 2020-10-19T11:39
+tags:
+  - amazon/aws/storage/
 ---
 
-# aws-storage-cache
+# Elasticache
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+## MemcacheD
 
+* Simple
+* Multi-threaded
+* Cache objects
+
+
+## Redis
+
+* Encrypted
+* HIPAA compliance
+* Complex data types
+* Replication
+* Pub/Sub capability
+* Geospacial indexing
+* Backup and restore
+
+
+
+### aws-storage-cache
