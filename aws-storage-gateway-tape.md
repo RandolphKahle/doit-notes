@@ -4,7 +4,9 @@ tags:
   - amazon/aws/storage/gateway/
 ---
 
-# aws-tape-gateway
+# Storage Tape Gateway
+
 
 Replace all on-premise tape backup storage.
 
+### aws-storage-gateway-tape

@@ -4,7 +4,8 @@ tags:
   - amazon/aws/storage/gateway/
 ---
 
-# aws-file-gateway
+# Storage File Gateway
 
 Provides NFS and SMB mount points for on-premise use while backing up or migrating files to Amazon S3.
 
+### aws-storage-gateway-file

@@ -4,9 +4,11 @@ tags:
   - amazon/aws/storage/gateway/
 ---
 
-# aws-volume-gateway
+# Storage Volume Gateway
 
-Provides an iSCSI endpoint for local attachment use.
+
+Provides an onpremise iSCSI endpoint for locally attached storage
+that is backed by cloud storage
 
 
 ## Stored Volumes
@@ -19,3 +21,4 @@ Keeps the most frequently used (blocks of) data locally. From 1GB to 32TiB and a
 
 The backing is sent to Amazon and is stored in an S3 bucket as an object store.
 
+### aws-storage-gateway-volume
