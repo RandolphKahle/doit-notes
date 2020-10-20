@@ -10,5 +10,5 @@ tags:
 Replace all on-premise tape backup storage.
 
 ### aws-storage-gateway-tape
-[[[z:zettels?tag=amazon/aws/storage/gateway/*]]]
+[[z:zettels?tag=amazon/aws/storage/gateway/*]]
 
