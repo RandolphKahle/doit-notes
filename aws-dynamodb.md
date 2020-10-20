@@ -23,6 +23,8 @@ If consistency faster than that then select strong-consistent-reads.
 
 Three geographically distinct data centers.
 
+Restictions: Limit of 400KB for key and value.
+
 ## Advanced Features
 
 **DAX** milliseconds to microsecond response. 
