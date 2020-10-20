@@ -19,7 +19,7 @@ Eliminates the need for an [Internet Gateway](aws-vpc-internet-gateway), [NAT de
 
 Also works with [Direct Connect](aws-vpc-direct-connect) to support a private connection to services on-premise.
 
-![Private Link](./static/privatelink_overview.jpg)
+![Private Link](./static/privatelink_overview.jpg){.center  .medium .image}
 
 ## Client side
 
