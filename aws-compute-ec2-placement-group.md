@@ -10,7 +10,7 @@ tags:
 
 A placement group provides control over the *physical* placement of virtual machines within an availability zone.
 
-The value is predicated on localized placement relative to network instance and shared infrastructure (e.g. a *rack*).
+The value of using a *placement group* is based on the relative performance, reliabilty, etc. of designating the proximity of various elements of compute (CPU, RAM, network, etc.)(e.g. a *rack*).
 
 ## Cluster Placement Group
 
