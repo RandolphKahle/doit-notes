@@ -6,7 +6,7 @@ tags:
 
 
 
-Several ways to provide onpremise storage that is connected to
+Several ways to provide on-premise storage that is connected to
 cloud storage.
 
 Uses a VM appliance locally to then make the connection up to Amazon.
