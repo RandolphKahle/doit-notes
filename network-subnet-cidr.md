@@ -1,8 +1,18 @@
 ---
 date: 2020-10-20T12:03
+tags:
+  - network/
 ---
 
-# network-subnet-cidr
+# Network Subnet CIDR blocks
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+| subnet | netmask | addresses | effective |
+| --- | --- | --- | --- |
+| /16 | 255.255.0.0 | 65536 | 65531 |
+| /24 | 255.255.255.0 | 256 | 251 | 
+| /28 | 255.255.255.240 | 16 | 11 |
+| /29 |255.255.255.248  |8 | 3|
 
+
+
+### network-subnet-cidr
