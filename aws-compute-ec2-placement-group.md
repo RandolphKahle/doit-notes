@@ -20,6 +20,8 @@ Packs instances close together inside a *single availability zone*.
 Benefit: Low latency performance needed for tightly-coupled multinode compute deployment (e.g. HPC). 
 Placed in the same high-biscetion bandwidth segment of the network.
 
+![Cluster](./static/placement-group-cluster.png)
+
 ## Partition Placement Group
 
 Spreads instances across logical partitions *within a region* such that groups of instances are on separate hardware (such as separate racks).
@@ -30,6 +32,10 @@ Restriction: A *maximum of seven partitions per availability zone*.
 
 Use case: HDFS, Cassandra, HBase.
 
+![Cluster](./static/placement-group-partition.png)
+
+
+
 ## Spread Placement Group
 
 Spreads instances across as much distinct hardware as possible *within a region*.
@@ -39,6 +45,8 @@ Use when there are a small number of instances that much be as isolated as possi
 Benefit: Reduce correlated failures.
 
 Restriction: Maximum of seven running instances per availabilty zone per group.
+
+![Cluster](./static/placement-group-spread.png)
 
 
 ### aws-compute-ec2-placement-group
