@@ -22,3 +22,5 @@ Keeps the most frequently used (blocks of) data locally. From 1GB to 32TiB and a
 The backing is sent to Amazon and is stored in an S3 bucket as an object store.
 
 ### aws-storage-gateway-volume
+[[[z:zettels?tag=amazon/aws/storage/gateway/*]]]
+
