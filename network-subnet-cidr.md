@@ -6,7 +6,7 @@ tags:
 
 # Network Subnet CIDR blocks
 
-| subnet | netmask | addresses | effective |
+| subnet | netmask | addresses | effective (AWS VPC)|
 | --- | --- | --- | --- |
 | /16 | 255.255.0.0 | 65536 | 65531 |
 | /24 | 255.255.255.0 | 256 | 251 | 
