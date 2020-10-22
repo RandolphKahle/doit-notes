@@ -17,7 +17,7 @@ by providing a private [Elastic Network Interface](aws-vpc-elastic-network-inter
 
 Eliminates the need for an [Internet Gateway](aws-vpc-internet-gateway), [NAT device](aws-vpc-gateway-nat), or a public IP address.
 
-Also works with [Direct Connect](aws-vpc-direct-connect) to support a private connection to services on-premise.
+Also works with [Direct Connect](aws-vpc-connection-directconnect) to support a private connection to services on-premise.
 
 ![Private Link](./static/privatelink_overview.jpg){.center  .medium .image}
 
@@ -43,4 +43,4 @@ Requires:
 
 ### aws-vpc-connection-privatelink
 
-[[[z:zettels?tag=amazon/aws/vpc/connection/*]]]
+[[z:zettels?tag=amazon/aws/vpc/connection/*]]
