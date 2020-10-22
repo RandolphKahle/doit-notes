@@ -65,3 +65,4 @@ Used to connect to resource through a transit gateway.
 
 ### aws-vpc-connection-directconnect
 
+[[[z:zettels?tag=amazon/aws/vpc/connection/*]]]
