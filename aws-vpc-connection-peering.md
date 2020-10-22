@@ -17,4 +17,4 @@ addresses.
 
 ### aws-vpc-connection-peering
 
-[[[z:zettels?tag=amazon/aws/vpc/connection/*]]]
+[[z:zettels?tag=amazon/aws/vpc/connection/*]]
