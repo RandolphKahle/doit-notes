@@ -16,3 +16,5 @@ addresses.
 * *Not* transitive. Peers can only forward to their directly connected VPCs.
 
 ### aws-vpc-connection-peering
+
+[[[z:zettels?tag=amazon/aws/vpc/connection/*]]]
