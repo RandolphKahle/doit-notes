@@ -41,8 +41,15 @@ One can "attach' a role to e.g. an [[aws-compute-ec2]] instance. This means the 
 
 IAM uses [[aws-iam-policy-document]]s to give permissions for [[aws-iam-user]]s / [[aws-iam-group]]s / [[aws-iam-role]]s to take actions within AWS.
 
-A policy document 
+A policy document defines:
+* Effect
+* Actions
+* Resources
+* Conditions (optional)
 
+Enumerates the API calls an *entity* can invoke.
+ 
+Any actions or resources not explicity allowed are denied by default.
 
 ### Features
 * Centralized control of AWS account
