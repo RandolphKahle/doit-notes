@@ -1,7 +1,7 @@
 ---
 date: 2020-10-10T14:19
 tags:
-  - address/aws/vpc/
+  - amazon/aws/vpc/
 ---
 
 # Elastic IP Address
