@@ -4,7 +4,7 @@ tags:
   - network/
 ---
 
-# Network Subnet CIDR block
+# Network CIDR block
 
 | subnet | netmask | addresses | effective (AWS VPC)|
 | --- | --- | --- | --- |
