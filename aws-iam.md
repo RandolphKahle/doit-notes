@@ -31,9 +31,21 @@ A group makes it easier to manage a set of permissions uniformly across multiple
 
 ### Roles
 
+An IAM role in an IAM identity to which permissions can be associated.
+A role does not have any long-term associated credential, password,
+or access keys.
+When a users is *assigned* to a role temporary access keys are generated and given to the user.
+
+Roles can be used to give access to AWS to users, applications, or
+services that normally do not have a means to access AWS resources.
+
 User can *assume* an IAM role after authenticated by a federated identity provider such as Facebook or Google.
 
 A role as "attached" *policies*.
+
+**When a user assumes a role it gives up its own permissions temporarily and can only do what the role policy documents allow**.
+
+
 
 One can "attach' a role to e.g. an [[aws-compute-ec2]] instance. This means the ec2 instance does not need a local copy of the secure keys. If such an instance is hacked, then the attackers could do anything allowed by the associated role(s) *but* they would not have access to the actual keys.
 
@@ -61,6 +73,11 @@ Any actions or resources not explicity allowed are denied by default.
 * Password rotation policy
 * Integrates with AWS services
 * PCI DSS Compliance
+
+## Steps
+* Create [[aws-iam-group]]
+* Create [[aws-iam-policy-document]] and assign to [[aws-iam-group]]
+* Create IAM users and associate them with one or more groups.
 
 # Exam Tips
 Associating a role with an EC2 instance is more secure than storing the access key information on the instance. You could still be hacked and have a bad actor use your account, but they would not have the keys.
