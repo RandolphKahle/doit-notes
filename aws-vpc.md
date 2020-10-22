@@ -1,7 +1,7 @@
 ---
 date: 2020-10-04T12:15
 tags:
-  - amazon/aws/network/
+  - amazon/aws/
 ---
 
 # Amazon Virtual Private Cloud. 
@@ -9,20 +9,22 @@ tags:
 Allows you to build and launch resources in an isolated section of the AWS system.
 
 ## Concepts
-* **Virtual Private Cloud** - virtual network dedicated to an [[aws-account]].
-* **Subnet** - A range of IP addresses in a VPC
+* **Virtual Private Cloud** - virtual network dedicated to an [[aws-account]]. It uses a single IP address [[network-subnet-cidr]].
+* **Subnet** - A range of IP addresses within the containing VPC [[network-subnet-cidr]].
 * **Route Table** - Set of rules that determine where network traffic is directed.
-* **Internet Gateway** - An attached gateway that allows communication with the Internet.
+* **Internet Gateway** - A gateway attached to the VPC that allows communication with the Internet.
 * **VPC Endpoint** - Supports private communication between a VPC and a supported AWS and VPC Endpoint services.
 
 ## Default VPC
 * Easy to use - ready to deploy EC2
 * Route out to Internet
 * All instances have public and private IP addresses.
+* NACL?
+* Security Group?
 
 ## Custom VPC
 * No subnets allocated
-* Default route table (all goes to VPC CIDR block)
+* Default route table (all traffic goes to VPC CIDR block)
 * Default NACL (allows everything)
 * Default Security Group (allows everything)
 
@@ -33,6 +35,8 @@ Star configuration. One central VPC and four attached VPCs.
 There is *no* transitive peering. (what does that mean)
 
 Can Peer between regions
+
+## Subnet
 
 Subnet *cannot* cross availability zones (unlike GCP where a subnet is a regional resource).
 
