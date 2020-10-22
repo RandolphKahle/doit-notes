@@ -1,7 +1,7 @@
 ---
 date: 2020-10-08T22:11
 tags:
-  - amazon/aws/vpc/
+  - amazon/aws/vpc/connection/
 ---
 
 # VPC Peering
@@ -15,4 +15,4 @@ addresses.
 * Peer with another VPC in a different [[aws-region]].
 * *Not* transitive. Peers can only forward to their directly connected VPCs.
 
-### aws-vpc-peering
+### aws-vpc-connection-peering

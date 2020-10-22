@@ -1,7 +1,7 @@
 ---
 date: 2020-10-09T07:48
 tags:
-  - amazon/aws/vpc/
+  - amazon/aws/vpc/connection/
 ---
 
 # Direct Connect
@@ -63,5 +63,5 @@ Used to connect to resource through a transit gateway.
   * Customer Gateway
 * Set up the VPN circuit on the customer hardware side of the connection.
 
-### aws-vpc-direct-connect
+### aws-vpc-connection-directconnect
 

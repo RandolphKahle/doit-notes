@@ -1,7 +1,7 @@
 ---
 date: 2020-10-06T10:00
 tags:
-  - amazon/aws/vpc/
+  - amazon/aws/vpc/connection/
 ---
 
 # Private Link
@@ -41,4 +41,4 @@ Requires:
  
  Connect VPC to tens, hundreds, or thousands of customer VPC then think about Private Link.
 
-### aws-vpc-private-link
+### aws-vpc-connection-privatelink
