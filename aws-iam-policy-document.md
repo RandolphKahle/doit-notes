@@ -45,7 +45,7 @@ A more restrictive policy document:
 ]
 ```
 
-* Sid - Who or What is authorized
+* Sid - Who or What is authorized (**user**, **group**, **resource**)
 * Action - Which tasks are allowed
 * Condition - Which conditions need to be met for authorization
 * Resource - Resource to which authorized tasks are performed.
