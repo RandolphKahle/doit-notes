@@ -1,11 +1,11 @@
 ---
 date: 2020-10-01T08:42
 tags:
-  - amazon/aws/network/
+  - amazon/aws/vpc/
 ---
 
 
-## Network Interface
+# Network Interface
 
 **ENI** is a virtual network interface card.
 
@@ -44,4 +44,4 @@ Bypasses the OS and talks directly to the EFA.
 From Amazon:
 >With EFA, High Performance Computing (HPC) applications using the Message Passing Interface (MPI) and Machine Learning (ML) applications using NVIDIA Collective Communications Library (NCCL) can scale to thousands of CPUs or GPUs. 
 
-### aws-network
+### aws-vpc-interface
