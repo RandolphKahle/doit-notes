@@ -25,4 +25,28 @@ to all resource, also know as the administrator!
   ]
 }
 ```
+
+A more restrictive policy document:
+```
+"Sid" : "Stmt1505076701000",
+"Effect": "Allow",
+"Action" : [
+   "s3:DeleteObject",
+   "s3:GetObject"
+   ],
+"Condition": {
+  "IpAddress": {
+      "aws:SourceIP": "10.14.8.0/24"
+      }
+    },
+"Resource": [
+    "arn:aws:s3:::billing-marketing",
+    "arn:aws:s3:::billing-sales"
+]
+```
+
+* Sid - Who or What is authorized
+* Action - Which tasks are allowed
+* Condition - Which conditions need to be met for authorization
+* Resource - Resource to which authorized tasks are performed.
 ### aws-iam-policy-document
