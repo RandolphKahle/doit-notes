@@ -42,3 +42,5 @@ Requires:
  Connect VPC to tens, hundreds, or thousands of customer VPC then think about Private Link.
 
 ### aws-vpc-connection-privatelink
+
+[[[z:zettels?tag=amazon/aws/vpc/connection/*]]]
