@@ -38,12 +38,14 @@ Subnet *cannot* cross availability zones (unlike GCP where a subnet is a regiona
 
 ## VPN
 
-An [[[network-protocol-ipsec]]] link between an external network and a VPC. Requires a hardware device or software appliance in the external network and a VPN [[aws-gateway]] on the AWS side.
+An [[[network-protocol-ipsec]]] link between an external network and a VPC. Requires a hardware device or software appliance in the external network and a VPN [[aws-vpc-virtual-private-gateway]] on the AWS side.
 
 
 ## Internet Gateway
 
 ## Security Group
 A security group is tied to a VPC.
+
+### aws-vpc
 
 [[[z:zettels?tag=amazon/aws/vpc/*]]]
