@@ -32,10 +32,10 @@ Allows you to build and launch resources in an isolated section of the AWS syste
 | --- | --- | --- |
 | CIDR | 172.31.0.0/16| | |
 | Internet Gateway | Yes | No |
-| Subnet | Two | None |
-| Security Group | | Allow everything | 
-| NACL | | Allow everything |
-| Route Table | To IGW than local | |
+| Subnet | One per AZ | None |
+| Security Group | VPC Security Group, allow everything | Allow everything | 
+| NACL | VPC NACL with allow everything | Allow everything |
+| Route Table | VPC Route Table: to IGW than local | |
 | EC2 Default public IP? | Yes | No |
 
 
