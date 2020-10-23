@@ -8,6 +8,7 @@ tags:
 
 A Direct Connect is a *dedicated* network connection between AWS and a location external to AWS.
 Because it is a dedicated network circuit and not a connection over the public network, it is inherently **more secure**.
+Available bandwidth up to 10Gbs.
 
 ![Direct Connect](./static/direct_connect_overview.png)
 
