@@ -6,9 +6,8 @@ tags:
 
 # Network Connection
 
+Technology and products that provide a network-to-network connection, or bridge between disparate networks.
 
-Technology and products that provide a network connection, bridge, or ?? between
-disparate networks.
 
 
 ### aws-vpc-connection
