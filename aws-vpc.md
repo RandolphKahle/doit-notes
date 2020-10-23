@@ -28,6 +28,17 @@ Allows you to build and launch resources in an isolated section of the AWS syste
 * Default NACL (allows everything)
 * Default Security Group (allows everything)
 
+| Feature | Default VPC | Custom VPC |
+| --- | --- | --- |
+| CIDR | | | |
+| Internet Gateway | Yes | No |
+| Subnet | Two | None |
+| Security Group | | Allow everything | 
+| NACL | | Allow everything |
+| Route Table | To IGW and local | |
+| EC2 Default public IP? | Yes | No |
+
+
 ## VPC Peering
 Connect to subnets.
 Connect VPCs in different accounts or in the same account.
