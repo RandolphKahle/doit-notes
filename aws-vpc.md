@@ -30,12 +30,12 @@ Allows you to build and launch resources in an isolated section of the AWS syste
 
 | Feature | Default VPC | Custom VPC |
 | --- | --- | --- |
-| CIDR | | | |
+| CIDR | 172.31.0.0/16| | |
 | Internet Gateway | Yes | No |
 | Subnet | Two | None |
 | Security Group | | Allow everything | 
 | NACL | | Allow everything |
-| Route Table | To IGW and local | |
+| Route Table | To IGW than local | |
 | EC2 Default public IP? | Yes | No |
 
 
