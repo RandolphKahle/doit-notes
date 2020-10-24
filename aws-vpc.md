@@ -16,24 +16,19 @@ Allows you to build and launch resources in an isolated section of the AWS syste
 * **VPC Endpoint** - Supports private communication between a VPC and a supported AWS and VPC Endpoint services.
 
 ## Default VPC
-* Easy to use - ready to deploy EC2
-* Route out to Internet
-* All instances have public and private IP addresses.
-* NACL?
-* Security Group?
+
+Easy-to-use, set up to allow simple VM instance configuration with connectivity to the Internet.
 
 ## Custom VPC
-* No subnets allocated
-* Default route table (all traffic goes to VPC CIDR block)
-* Default NACL (allows everything)
-* Default Security Group (allows everything)
+
+Mostly naked, requires custom changes and additions.
 
 | Feature | Default VPC | Custom VPC |
 | --- | --- | --- |
 | CIDR | 172.31.0.0/16| | |
 | Internet Gateway | Yes | No |
 | Subnet | One per AZ | None |
-| Security Group | VPC Security Group, allow everything | Allow everything | 
+| Security Group | Allow everything | Allow everything | 
 | NACL | VPC NACL with allow everything | Allow everything |
 | Route Table | VPC Route Table: to IGW than local | |
 | EC2 Default public IP? | Yes | No |
