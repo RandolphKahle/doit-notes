@@ -32,7 +32,7 @@ Mostly naked, requires custom changes and additions.
 | Subnet | One per AZ | None |
 | Security Group | Allow everything | Allow everything | 
 | NACL | VPC NACL with allow everything | Allow everything |
-| Route Table | VPC Route Table: to IGW than local | |
+| Route Table | VPC Route Table: to IGW than local | All to local|
 | EC2 Default public IP? | Yes | No |
 
 
