@@ -6,6 +6,8 @@ tags:
 
 # Amazon Virtual Private Cloud. 
 
+The Amazon VPC is the networking sub-structure that connects various compute resources using the Internet Protocol (IP). It also supports a subset of ICMP. It *does not support* [[network-protocol-multicast]].
+
 Allows you to build and launch resources in an isolated section of the AWS system.
 
 ## Concepts
