@@ -9,5 +9,9 @@ tags:
 
 An AWS VPC Internet Gateway is a horizontally scalable, redundant, and highly available connection service.
 
+This is a bi-directional interface. **If a subnet has an associated route to the Internet Gateway then it *is* a public subnet**.
+
+
+
 
 ### aws-vpc-internet-gateway
