@@ -2,7 +2,16 @@
 date: 2020-10-30T11:02
 ---
 
-# tools-knockout
+# KnockOut
 
-Write your Markdown content here. Read [neuron documentation](https://neuron.zettel.page/2011404.html) for syntax help.
+Javascript library for web UI development - data binding and form management.
 
+The core concepts are:
+* Observables
+* Bindings
+* Templating
+
+
+
+
+### tools-knockout
