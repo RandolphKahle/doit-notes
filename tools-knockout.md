@@ -6,6 +6,15 @@ date: 2020-10-30T11:02
 
 Javascript library for web UI development - data binding and form management.
 
+Knockout uses an MVVM approach. A:
+* **Model** – contains the business domain including data and functions
+* **View** - user interface
+* **View-Model** - In-flight data that backs the UI. Any changes made by the user are stored here. Includes functions to support UI operations such as dropping or adding elements in a set or array.
+
+```
+UI <--> View-Model <--> Model <--(Ajax)--> Server
+```
+
 The core concepts are:
 * Observables
 * Bindings
@@ -14,11 +23,9 @@ The core concepts are:
 
 ## Model
 
-A Knockout *model* includes
+A Knockout *model* comprises the business domain:
 * data
 * operations
-
-that represent the business domain of the application.
 
 The communication with the server involves retrieving and sending this model via Ajax calls.
 
