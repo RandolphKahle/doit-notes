@@ -47,5 +47,19 @@ export  class  MyRatingComponent  {
 }
 ```
 
+## Meta Sections
+
+The @Prop decorator defines a mapping between the HTML attribute 
+on the contructed HTML element and the defining class.
+For example:
+```
+@Prop() firstName: string = "";
+```
+Maps to the *first-name* attribute:
+```
+<my-component first-name="Randy"></my-component>
+```
+Not that the camel case used in TypeScript is mapped to
+kebab-case in the HTML.
 
 ### stenciljs
