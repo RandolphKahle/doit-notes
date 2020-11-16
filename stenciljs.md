@@ -49,6 +49,8 @@ export  class  MyRatingComponent  {
 
 ## Meta Sections
 
+### @Prop
+
 The @Prop decorator defines a mapping between the HTML attribute 
 on the contructed HTML element and the defining class.
 For example:
@@ -61,5 +63,10 @@ Maps to the *first-name* attribute:
 ```
 Not that the camel case used in TypeScript is mapped to
 kebab-case in the HTML.
+
+### @State
+
+A component may have internal state that is hidden and fully
+managed by the component.
 
 ### stenciljs
